@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Aviation Data Import2</name>
+        <run_as display_value="Jeremy Duncan">92ff464bdb533300ed6bf1471d961953</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:00:30</run_period>
+        <run_start>2019-08-20 23:21:16</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var requestBody;
+var responseBody;
+var status;
+var sm;
+
+
+try {
+    var r = new sn_ws.RESTMessageV2('x_snc_aviation_ser.Opensky', 'Cultest GET');
+
+
+    //Specifying specific LAT LONG values. Will overwrite the integration GET values.
+    /*
+	r.setStringParameterNoEscape('lamin', '39.095297');
+	r.setStringParameterNoEscape('lomax', '18.189240');
+	r.setStringParameterNoEscape('lomin', '-9.570808');
+	r.setStringParameterNoEscape('lamax', '59.152875');
+ 	*/
+
+    response = r.execute();
+
+    //Might throw exception if http connection timed out or some issue with sending request itself because of encryption/decryption of password.
+
+    response.waitForResponse(60); // In seconds. Wait at most 60 seconds to get response from ECC Queue/Mid Server //Might throw exception timing out waiting for response in ECC queue.
+
+    responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+    status = response.getStatusCode();
+
+    //added count to keep the data managable 
+    var count = 0;
+    var resp = JSON.parse(responseBody);
+    var states = resp.states;
+    gs.info(JSON.stringify(states));
+    for (var index = 0; index < states.length; index++) {
+        if (states[index][5] && states[index][6] && count < 100) {
+
+            count++;
+
+            var gr = new GlideRecord('x_snc_aviation_ser_aviation_data2');
+            gr.addQuery('icao', states[index][0]);
+            gr.query();
+            if (gr.next()) {
+                gs.info(count + ' - at line 42');
+                var grCallSign = new GlideRecord('x_snc_aviation_ser_airline_callsign');
+                grCallSign.addQuery('identifier', callSign.substring(0, 3));
+                grCallSign.query();
+                if (grCallSign.next()) {
+                    gs.info(count + ' - at line 47');
+                    gr.setValue('callsign', grCallSign.sys_id.toString());
+                } else {
+                    gs.info(count + ' - at line 50');
+                    gr.setValue('callsign', 'N/A');
+                }
+                gr.setValue('call_sign_full', states[index][1]);
+                gr.setValue('origin_country', states[index][2]);
+                gr.setValue('time_position', states[index][3]);
+                gr.setValue('last_contact', states[index][4]);
+                gr.setValue('longitude', states[index][5]);
+                gr.setValue('latitude', states[index][6]);
+                gr.setValue('baro_altitude', states[index][7]);
+                gr.setValue('on_ground', states[index][8]);
+                gr.setValue('velocity', states[index][9]);
+                gr.setValue('true_track', states[index][10]);
+                gr.setValue('vertical_rate', states[index][11]);
+                gr.setValue('geo_altitude', states[index][13]);
+                gr.update();
+            } else {
+                gr.initialize();
+                gr.setValue('icao', states[index][0]);
+                gr.setValue('call_sign_full', states[index][1]);
+                var callSign = states[index][1];
+                //gr.setValue('call_sign', callSign.substring(0, 3));
+
+                if (callSign.substring(0, 3) == 'RYR') {
+                    gr.setValue('aircraft_engine', '597aea93db5773007be0fb371d961970');
+                }
+
+
+                if (states[index][2] == 'United States') {
+                    if (callSign.substring(0, 3) == 'DAl' || callSign.substring(0, 3) == 'SWA' || callSign.substring(0, 3) == 'AAL' || callSign.substring(0, 3) == 'FDX') {
+                        var grCallSign = new GlideRecord('x_snc_aviation_ser_airline_callsign');
+                        grCallSign.addQuery('identifier', callSign.substring(0, 3));
+                        grCallSign.query();
+                        if (grCallSign.next()) {
+                            gs.info(count + ' - at line 84 - ' + grCallSign.sys_id.toString() + ',' + callSign.substring(0, 3));
+                            //gr.setValue('callsign', grCallSign.sys_id.toString(), callSign.substring(0, 3));
+                            gr.setDisplayValue('callsign',grCallSign.sys_id.toString(), callSign.substring(0, 3));
+                           // new global.AviationSvcUtils.setDisplayValue(gr, 'callsign', grCallSign.sys_id.toString(), callSign.substring(0, 3));
+                            gr.setValue('origin_country', states[index][2]);
+                            gr.setValue('time_position', states[index][3]);
+                            gr.setValue('last_contact', states[index][4]);
+                            gr.setValue('longitude', states[index][5]);
+                            gr.setValue('latitude', states[index][6]);
+                            gr.setValue('baro_altitude', states[index][7]);
+                            gr.setValue('on_ground', states[index][8]);
+                            gr.setValue('velocity', states[index][9]);
+                            gr.setValue('true_track', states[index][10]);
+                            gr.setValue('vertical_rate', states[index][11]);
+                            gr.setValue('geo_altitude', states[index][13]);
+                            var d = new Date(0);
+                            d.setUTCSeconds(states[index][3]);
+                            gr.setValue('time_position_dt', d.toString());
+                            var d1 = new Date(0);
+                            d1.setUTCSeconds(states[index][4]);
+                            gr.setValue('last_contact_dt', d1.toString());
+                            gr.insert();
+                        }
+                    }
+
+                } else {
+                    var grCallSign1 = new GlideRecord('x_snc_aviation_ser_airline_callsign');
+                    grCallSign1.addQuery('identifier', callSign.substring(0, 3));
+                    grCallSign1.query();
+                    if (grCallSign1.next()) {
+                        gs.info(count + ' - at line 112 - ' + grCallSign1.sys_id.toString() + ',' + callSign.substring(0, 3));
+                        //gr.setValue('callsign', grCallSign1.sys_id.toString(), callSign.substring(0, 3));
+                        gr.setDisplayValue('callsign', grCallSign1.sys_id.toString(),callSign.substring(0, 3));
+                        //new global.AviationSvcUtils.setDisplayValue(gr, 'callsign', grCallSign1.sys_id.toString(), callSign.substring(0, 3));
+                        gr.setValue('origin_country', states[index][2]);
+                        gr.setValue('time_position', states[index][3]);
+                        gr.setValue('last_contact', states[index][4]);
+                        gr.setValue('longitude', states[index][5]);
+                        gr.setValue('latitude', states[index][6]);
+                        gr.setValue('baro_altitude', states[index][7]);
+                        gr.setValue('on_ground', states[index][8]);
+                        gr.setValue('velocity', states[index][9]);
+                        gr.setValue('true_track', states[index][10]);
+                        gr.setValue('vertical_rate', states[index][11]);
+                        gr.setValue('geo_altitude', states[index][13]);
+                        var d2 = new Date(0);
+                        d2.setUTCSeconds(states[index][3]);
+                        gr.setValue('time_position_dt', d2.toString());
+                        var d3 = new Date(0);
+                        d3.setUTCSeconds(states[index][4]);
+                        gr.setValue('last_contact_dt', d3.toString());
+                        gr.insert();
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+
+} catch (ex) {
+    responseBody = ex.getMessage();
+    status = '500';
+} finally {
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 13:53:16</sys_created_on>
+        <sys_id>663a48df1335c050c8e176076144b0d1</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Aviation Data Import2</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sysauto_script_663a48df1335c050c8e176076144b0d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-25 14:02:07</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

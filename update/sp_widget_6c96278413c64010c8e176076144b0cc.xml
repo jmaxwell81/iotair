@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope,   $interval,$rootScope, $window, $location, $anchorScroll, $timeout, leafletData, $q, spUtil) {
+  /* widget controller */
+  var c = this;
+
+  c.loading = true;
+  c.liveApp = false;
+  c.masterMarkers = [];
+  c.markers = [];
+
+
+	//Adding custom icon to be used.
+/*
+	var local_icons = L.icon({
+    iconUrl: 'plane.png',
+    iconSize: [38, 95],
+    iconAnchor: [22, 94],
+    popupAnchor: [-3, -76],
+    shadowUrl: 'my-icon-shadow.png',
+    shadowSize: [68, 95],
+    shadowAnchor: [22, 94]
+});
+L.marker([50.505, 30.57], {icon: local_icons}).addTo(map);
+*/
+
+// // Duncan logo
+//   var local_icons = {
+//     default_icon: {},
+//     plane_icon: {
+//       iconUrl: 'plane.png',
+//       shadowUrl: '',
+//       iconSize: [38, 38], // size of the icon
+//       shadowSize: [0, 0], // size of the shadow
+//       iconAnchor: [18, 18], // point of the icon which will correspond to marker's location
+//       shadowAnchor: [0, 0], // the same for the shadow
+//       popupAnchor: [0, 18] // point from which the popup should open relative to the iconAnchor
+//     }
+//   }
+
+
+// SUSH logo
+// var local_icons = {
+//   default_icon: {},
+//   blue_plane_icon: {
+//     iconUrl: 'icon-plane-blue.png',
+//     shadowUrl: '',
+//     iconSize: [38, 38], // size of the icon
+//     shadowSize: [0, 0], // size of the shadow
+//     iconAnchor: [18, 18], // point of the icon which will correspond to marker's location
+//     shadowAnchor: [0, 0], // the same for the shadow
+//     popupAnchor: [0, 18] // point from which the popup should open relative to the iconAnchor
+//   },
+//   amber_plane_icon: {
+//     iconUrl: 'icon-plane-amber.png',
+//     shadowUrl: '',
+//     iconSize: [38, 38], // size of the icon
+//     shadowSize: [0, 0], // size of the shadow
+//     iconAnchor: [18, 18], // point of the icon which will correspond to marker's location
+//     shadowAnchor: [0, 0], // the same for the shadow
+//     popupAnchor: [0, 18] // point from which the popup should open relative to the iconAnchor
+//   }
+// }
+
+
+
+c.awesomeMarkerIconPlaneAmber = {
+    type: 'awesomeMarker',
+    icon: 'plane',
+    markerColor: 'amber',
+    prefix: 'fa',
+    iconColor: '#fff'
+  };
+	
+	c.awesomeMarkerIconPlaneYellow = {
+    type: 'awesomeMarker',
+    icon: 'plane',
+    markerColor: 'green',
+    prefix: 'fa',
+    iconColor: '#fff'
+  };
+
+  c.awesomeMarkerIconPlane = {
+    type: 'awesomeMarker',
+    icon: 'plane',
+    markerColor: 'blue',
+    prefix: 'fa',
+    iconColor: '#fff'
+  };
+
+  c.centerLocation = {
+    lat: 48.8566,
+    lng: 2.3522,
+    zoom: 3,
+    icon: c.awesomeMarkerIconPlane
+    //icon: local_icons.plane_icon
+  }
+  c.startLocation = {
+    lat: 48.8566,
+    lng: 2.3522,
+    zoom: 3,
+    icon: c.awesomeMarkerIconPlane
+    //icon: local_icons.plane_icon
+  }
+
+
+  c.deleteThis = function(sysid){
+    debugger;
+
+  }
+
+
+  function getDeviceLocation() {
+    var defer = $q.defer();
+
+    if (navigator.geolocation && c.liveApp) {
+      navigator.geolocation.getCurrentPosition(function (location) {
+        c.centerLocation.lat = location.coords.latitude;
+        c.centerLocation.lng = location.coords.longitude;
+        c.startLocation.lat = location.coords.latitude;
+        c.startLocation.lng = location.coords.longitude;
+        if (location.coords.accuracy > 14) {
+          c.centerLocation.zoom = Math.round(location.coords.accuracy * 0.25);
+          c.startLocation.zoom = Math.round(location.coords.accuracy * 0.25);
+        }
+        defer.resolve();
+      });
+    } else {
+
+      c.startLocation = {
+        lat: 48.8566,
+        lng: 2.3522,
+        zoom: 3,
+        // icon: local_icons.plane_icon
+        icon: c.awesomeMarkerIconPlane
+      }
+      angular.copy(c.centerLocation, c.startLocation);
+      defer.resolve();
+    }
+    return defer.promise;
+  }
+
+
+  c.mapbox = {
+    mapbox_layer: {
+      name: 'Mapbox',
+      // url: 'https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token={apikey}',
+      url: 'https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token={apikey}',
+      type: 'xyz',
+      options: {
+        apikey: "pk.eyJ1IjoicGxhdGV4cC1zbm93IiwiYSI6ImNqM29zYmwyMDAwZGwzMm05M3o2czQwZnAifQ.uzAKj6D1483hiH1FbPL75A",
+        mapid: 'testing'
+      }
+    }
+  };
+
+  c.$onInit = function () {
+    //debugger;
+    c.tile = c.mapbox.mapbox_layer;
+    getDeviceLocation().then(function () {
+      $timeout(function () {
+        demoMarkers();
+        c.loading = false;
+      }, 3000);
+    });
+  };
+
+
+
+
+  $scope.$watch("c.loading", function (value) {
+    if (value === false) {
+      leafletData.getMap().then(function (map) {
+        $timeout(function () {
+          map.invalidateSize();
+        }, 300);
+      });
+    }
+  });
+
+  function demoMarkers() {
+    var markers = [];
+
+    for (var i = 0; i < c.data.planes.length; i++) {
+      markers[i] = {
+        name: '',
+
+        //icon: local_icons.blue_plane_icon,
+        message: '',
+        image: '',
+        speed:c.data.planes[i].velocity,
+        altitude: c.data.planes[i].altitude,
+        engine:c.data.planes[i].engine,
+        currentLoc : c.data.planes[i].curLoc,
+        lat: parseFloat(c.data.planes[i].lat),
+        lng: parseFloat(c.data.planes[i].lng),
+        sys_id: c.data.planes[i].sys_id,
+        engine_id: c.data.planes[i].engine_id,
+				call_sgn: c.data.planes[i].callsignfull,
+				issue: c.data.planes[i].issuepriority
+      };
+
+     
+			if(c.data.planes[i].issuepriority == '1 - Critical' || c.data.planes[i].issuepriority == '2 - High'){
+				 console.log('amber ' + c.data.planes[i].issuepriority);
+        markers[i].icon =  c.awesomeMarkerIconPlaneAmber;
+  //      markers[i].amber =  true;
+			} else if (c.data.planes[i].issuepriority == '3 - Moderate') {
+				 console.log('yellow ' + c.data.planes[i].issuepriority);
+				 markers[i].icon =  c.awesomeMarkerIconPlaneYellow;
+  //       markers[i].yellow =  true;
+			} else{
+        markers[i].icon = c.awesomeMarkerIconPlane;
+  //      markers[i].amber =  false;
+      }
+
+
+      var msg = [];
+      msg.push('<div class="flex-it">');
+
+      markers[i].name = c.data.planes[i].airline;
+      markers[i].image = c.data.planes[i].logo || 'logo-placeholder.png';
+      markers[i].type = '';
+
+      // markers[i].address = c.data.sites[i].street +' ' + c.data.sites[i].city +', '+ c.data.sites[i].state +' '+ c.data.sites[i].zip;
+      msg.push('<div class="image" style="background-image:url(' + markers[i].image + ')"></div>');
+			msg.push('<div><div class="info"><span>Callsign: </span> '  + c.data.planes[i].callsignfull + '</div>');
+      msg.push('<div><div class="info"><span>Operator: </span>' + markers[i].name + '</div>');
+      msg.push('<div class="info"><span>Origin Country: </span>' + c.data.planes[i].origin_country + '</div>');
+      msg.push('<div class="info"><span>Engine: </span><a class="underline" target="_blank"href="?id=avs_engine&sys_id='+markers[i].engine_id+'">' + c.data.planes[i].engine + '</a></div>');
+       //msg.push('<div class="info"><span>sysid: </span>' + c.data.planes[i].sys_id + '</div>');
+
+
+      // msg.push('<div class="info">'+ c.data.sites[i].city +', '+ c.data.sites[i].state +' '+ c.data.sites[i].zip +'</div>');
+      // msg.push('<div class="info">M-F: 9AM - 5PM</div>');
+      // msg.push('<div class="info">SAT: 9AM - 3PM</div></div>');
+
+
+      msg.push('</div>');
+      markers[i].message = msg.join('');
+    }
+
+    // markers[c.data.planes.length] = {
+    // 		name: '',
+    // 		icon: '',
+    // 		message : 'You are Here!',
+    // 		image : '',
+    // 		lat: c.startLocation.lat,
+    // 		lng: c.startLocation.lng
+    // 	};
+    angular.copy(markers, c.markers);
+    angular.copy(c.markers, c.masterMarkers);
+  }
+
+
+   var q = "issue_priorityIN1,2,3^active=true";
+   spUtil.recordWatch($scope, "x_snc_aviation_ser_aviation_data2", q, function(event, data) {
+   if (data.changes.includes("issue_priority")) { // only update if  issue_priority was updated.
+      spUtil.update($scope);
+		 console.log('recordWatch performed..');
+   }
+});
+
+
+
+  // $interval( function(){
+  //   c.server.get().then(function (r) {
+  //     c.data.planes = r.data.planes;
+  //     demoMarkers();
+  //   });
+  //  }, 40000);
+
+
+  $scope.$on('leafletDirectiveMarker.click', function (e, args) {
+    // c.server.get({
+    //   deletethis: true,
+    //   sys_id: args.model.sys_id
+    // }).then(function(){
+
+    // });
+    console.log(args.model.sys_id);
+
+    $rootScope.$broadcast('markerClicked', args.model);
+    var marker = args.leafletObject.getLatLng();
+    c.centerLocation.lat = marker.lat + 0.002;
+    c.centerLocation.lng = marker.lng;
+  });
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.sk-spinner-pulse {&#13;
+  width: 60px;&#13;
+  height: 60px;&#13;
+  margin: 60px auto;&#13;
+  background-color: $bam-darkblue;&#13;
+  border-radius: 100%;&#13;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;&#13;
+  animation: sk-pulseScaleOut 1s infinite ease-in-out;&#13;
+}&#13;
+&#13;
+.spinny {&#13;
+  position: absolute;&#13;
+  top: 50px;&#13;
+  margin-left: auto;&#13;
+  margin-right: auto;&#13;
+  left: 0;&#13;
+  right: 0;&#13;
+  z-index: 12000;&#13;
+}&#13;
+&#13;
+&#13;
+.underline{&#13;
+  text-decoration: underline;&#13;
+}&#13;
+&#13;
+@-webkit-keyframes sk-pulseScaleOut {&#13;
+  0% {&#13;
+    -webkit-transform: scale(0);&#13;
+    transform: scale(0);&#13;
+  }&#13;
+  100% {&#13;
+    -webkit-transform: scale(1);&#13;
+    transform: scale(1);&#13;
+    opacity: 0;&#13;
+  }&#13;
+}&#13;
+&#13;
+@keyframes sk-pulseScaleOut {&#13;
+  0% {&#13;
+    -webkit-transform: scale(0);&#13;
+    transform: scale(0);&#13;
+  }&#13;
+  100% {&#13;
+    -webkit-transform: scale(1);&#13;
+    transform: scale(1);&#13;
+    opacity: 0;&#13;
+  }&#13;
+}&#13;
+.flex-it {&#13;
+  display: flex;&#13;
+  align-items: center;&#13;
+  .image {&#13;
+    width: 60px;&#13;
+    height: 60px;&#13;
+    display: flex;&#13;
+    align-items: center;&#13;
+    justify-content: center;&#13;
+    background-position: center;&#13;
+    background-size: cover;&#13;
+    position: relative;&#13;
+    margin-right: 5px;&#13;
+  }&#13;
+  .info-title{&#13;
+    &#13;
+    font-weight: 500;&#13;
+    display: block;&#13;
+  }&#13;
+  .info{&#13;
+    font-size:14px;&#13;
+    line-height:17px;&#13;
+    font-weight: 400;&#13;
+    display: block;&#13;
+    span{&#13;
+      font-weight: bold;&#13;
+      color: #F8357C;&#13;
+    }&#13;
+  }&#13;
+}&#13;
+&#13;
+.near-by {&#13;
+  min-height: 100%;&#13;
+  background: $brand-secondary;&#13;
+  margin-top: -10px;&#13;
+}&#13;
+&#13;
+.angular-leaflet-map {&#13;
+  height: 600px;&#13;
+  width: 100vw;&#13;
+  .leaflet-popup-content p {&#13;
+    margin: 5px 0px !important;&#13;
+  }&#13;
+}&#13;
+&#13;
+.map-icon {&#13;
+  fill: $bam-white;&#13;
+  stroke: $bam-blue;&#13;
+  object-fit: contain;&#13;
+  height: 20px;&#13;
+  width: 20px;&#13;
+}&#13;
+&#13;
+/*******************leaflet overrides**********************/&#13;
+.leaflet-bar {&#13;
+  border: 0px solid transparent;&#13;
+  margin-left: 14px;&#13;
+}&#13;
+.leaflet-bar a,&#13;
+.leaflet-bar a:hover {&#13;
+  background-color: $bam-white;&#13;
+  width: 26px;&#13;
+  height: 26px;&#13;
+  line-height: 26px;&#13;
+  display: block;&#13;
+  text-align: center;&#13;
+  text-decoration: none;&#13;
+  color: $bam-black;&#13;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.54);&#13;
+  border: 0;&#13;
+  z-index: 810;&#13;
+}&#13;
+.leaflet-bar a,&#13;
+.leaflet-control-layers-toggle {&#13;
+  background-position: 50% 50%;&#13;
+  background-repeat: no-repeat;&#13;
+  display: block;&#13;
+}&#13;
+.leaflet-bar a:hover {&#13;
+  background-color: #f4f4f4;&#13;
+}&#13;
+.leaflet-bar a:first-child {&#13;
+  border-top-left-radius: 4px;&#13;
+  border-top-right-radius: 4px;&#13;
+}&#13;
+.leaflet-bar a:last-child {&#13;
+  border-bottom-left-radius: 4px;&#13;
+  border-bottom-right-radius: 4px;&#13;
+&#13;
+}&#13;
+.leaflet-bar a.leaflet-disabled {&#13;
+  cursor: default;&#13;
+  background-color: #f4f4f4;&#13;
+  color: #bbb;&#13;
+}&#13;
+&#13;
+.leaflet-touch .leaflet-bar a {&#13;
+  border-radius: 50%;&#13;
+  background-color: $bam-white;&#13;
+  color: $bam-blue;&#13;
+  margin-top: 10px;&#13;
+  margin-bottom: 10px;&#13;
+  width: 34px;&#13;
+  height: 34px;&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+/* zoom control */&#13;
+&#13;
+.leaflet-control-zoom-in,&#13;
+.leaflet-control-zoom-out {&#13;
+  font-family : 'SFUIDisplay','SourceSansPro', Helvetica, Arial, sans-serif !important;&#13;
+  font-size: 34px;&#13;
+  font-weight: 200;&#13;
+  text-indent: 0px;&#13;
+  padding-top: 1px;&#13;
+}&#13;
+.leaflet-control-zoom-out {&#13;
+  font-size: 36px;&#13;
+  padding-top: 2px;&#13;
+}&#13;
+&#13;
+.leaflet-touch .leaflet-control-zoom-in {&#13;
+  font-size: 34px;&#13;
+}&#13;
+.leaflet-touch .leaflet-control-zoom-out {&#13;
+  font-size: 36px;&#13;
+  padding-top: 2px;&#13;
+}&#13;
+&#13;
+&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>avs_map_2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>AVS Map2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function () {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	data.planes = [];
+
+	if (input) {
+		if (input.deletethis) {
+			var grSitesTwo = new GlideRecord('x_snc_aviation_ser_aviation_data2');
+
+			grSitesTwo.addQuery('sys_id',input.sys_id);
+
+			grSitesTwo.query();
+			if(grSitesTwo.next()){
+				grSitesTwo.deleteRecord();
+			}
+		}
+	}
+	var grSites = new GlideRecord('x_snc_aviation_ser_aviation_data2');
+	grSites.addEncodedQuery('call_sign!=da058ea1dbebf700ed6bf1471d961977^ORcallsign=NULL');
+	grSites.addActiveQuery();
+
+	grSites.query();
+	var idx = 0;
+	while (grSites.next()) {
+		data.planes.push({
+			sys_id: grSites.sys_id.toString(),
+			curLoc:grSites.current_location.toString(),
+			icao24: grSites.getDisplayValue('icao24'),
+			origin_country: grSites.getDisplayValue('origin_country'),
+			airline: grSites.call_sign.aircraft_operator.getDisplayValue(),
+			logo: grSites.call_sign.logo.getDisplayValue(),
+			engine: grSites.getDisplayValue('aircraft_engine'),
+			altitude: grSites.getDisplayValue('geo_altitude'),
+			velocity: grSites.getDisplayValue('velocity'),
+			engine_id: grSites.aircraft_engine.toString(),
+			callsignfull: grSites.getDisplayValue('call_sign_full'),
+			issuepriority: grSites.getDisplayValue('issue_priority'),
+
+			// phone : grSites.getDisplayValue('phone'),
+			lat: grSites.getDisplayValue('latitude'),
+			lng: grSites.getDisplayValue('longitude')
+			//types : grSites.getDisplayValue('x_snc_city_finance_type')
+		});
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-26 13:51:25</sys_created_on>
+        <sys_id>6c96278413c64010c8e176076144b0cc</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>AVS Map2</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_widget_6c96278413c64010c8e176076144b0cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-01 15:33:51</sys_updated_on>
+        <template><![CDATA[<div class="row near-by">
+<!-- your widget template -->
+   <leaflet lf-center="c.centerLocation" markers="c.markers" tiles="c.tile" defaults="defaults"></leaflet>
+   <div class="spinny" ng-show="c.loading">
+      <div class="sk-spinner sk-spinner-pulse"></div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

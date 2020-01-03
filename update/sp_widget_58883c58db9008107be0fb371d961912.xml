@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $rootScope, $timeout, $location) {
+  /* widget controller */
+  var c = this;
+
+  c.passData = function() {
+    c.server.get({
+        caseCreation: true,
+        firstName: c.firstName,
+        lastName: c.lastName,
+        email: c.email,
+        title: c.title
+        }).then(function(r) { 
+            console.log(r);
+            console.log('waduhek');
+            $location.url('/avs');
+        });
+    }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.panel {
+    background-color: $brand-primary;
+    color: #ffffff;
+    border-radius: unset !important;
+    margin-bottom: unset !important;
+}
+
+div h1 {
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 20px;
+    height: 44px;
+}
+
+.labels {
+    font-size: 22px;
+    margin-bottom: 11px;
+}
+
+.text-right {
+    text-align: center;
+}
+
+.padding-none {
+    padding-left: unset !important;
+    padding-right: unset !important;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #100d88;
+    margin-top: 10px;
+    height: 52px; 
+    border-radius: 30px;
+    box-shadow: 3px 4px 2px -1px rgba(255,255,255,0.4);
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.wid {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>avs_lead_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>AVS Lead Form</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  if(input) {
+    var grUser = new GlideRecord('x_snc_aviation_ser_avs_user');
+    grUser.initialize();
+    grUser.setValue('first_name', input.firstName);
+    grUser.setValue('last_name', input.lastName);
+    grUser.setValue('email', input.email);
+    grUser.setValue('title', input.title);
+    grUser.insert();
+  }
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>brian.clauzel</sys_created_by>
+        <sys_created_on>2019-09-30 19:59:31</sys_created_on>
+        <sys_id>58883c58db9008107be0fb371d961912</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>AVS Lead Form</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_widget_58883c58db9008107be0fb371d961912</sys_update_name>
+        <sys_updated_by>jacob.shemkovitz</sys_updated_by>
+        <sys_updated_on>2019-11-06 16:25:24</sys_updated_on>
+        <template><![CDATA[<div class="row m-t-lg">
+    <div class="col-md-12 padding-none">
+        <div class="panel">
+            <div class="wrapper-md break-word item-header sc-sticky-item-header">
+                <h1 class="h2 m-t-none m-b-sm font-thin">
+                    Fill Out To Continue
+                </h1>
+            </div>
+            <div class="wrapper-md wid">
+                <form action="" name="requestForm" id="requestForm" ng-submit="c.passData(requestForm)">
+                    <div class="form-group">
+                        <label for="firstName" class="labels">First Name</label>
+                        <input type="text" class="firstName form-control" id="firstName" ng-model="c.firstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName" class="labels">Last Name</label>
+                        <input type="text" class="lastName form-control" id="lastName" ng-model="c.lastName">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName" class="labels">Email</label>
+                        <input type="email" class="email form-control" id="email" ng-model="c.email">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName" class="labels">Title</label>
+                        <input type="text" class="title form-control" id="title" ng-model="c.title">
+                    </div>
+                    <div class="inline-cart ng-scope">
+                        <div class="wrapper-md ng-scope padding-none">
+                            <div class="text-right ng-scope">
+                                <button type="submit" class="btn btn-primary form-control">CONTINUE</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

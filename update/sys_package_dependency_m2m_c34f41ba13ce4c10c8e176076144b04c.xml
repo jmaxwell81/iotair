@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Core" source="com.snc.service_management.core">f35bb4dddbabb7007be0fb371d9619fb</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2020-01-03 15:53:47</sys_created_on>
+        <sys_id>c34f41ba13ce4c10c8e176076144b04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:53:47</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

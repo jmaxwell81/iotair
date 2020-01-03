@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Aviation Ser Aircraft Engine" max_length="40" name="u_imp_tmpl_x_snc_aviation_ser_aircraft_engine" type="collection">
+        <element attributes="import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="integer"/>
+        <element attributes="import_attribute_name=Horsepower" label="Horsepower" max_length="40" name="u_horsepower" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MFR" label="MFR" max_length="120" name="u_mfr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="120" name="u_model" type="string"/>
+        <element attributes="import_attribute_name=Thrust" label="Thrust" max_length="40" name="u_thrust" type="integer"/>
+        <element attributes="import_attribute_name=Type" label="Type" max_length="120" name="u_type" type="integer"/>
+    </element>
+</database>

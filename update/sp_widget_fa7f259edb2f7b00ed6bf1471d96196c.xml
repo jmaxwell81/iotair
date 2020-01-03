@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope) {
+    /* widget controller */
+    var c = this;
+
+    c.showDiv = false;
+     c.chartData = {
+        chart: {
+            backgroundColor: '#fff',
+            type: 'spline',
+            scrollablePlotArea: {
+
+                scrollPositionX: 1
+            }
+        },
+        scrollbar: {
+            enabled: false
+        },
+        title: {
+            text: 'Fuel Consumption',
+            align: 'center',
+            style: {
+                color: '#F8357C',
+                font: '18px "RRPioneer-Med", Arial'
+
+            }
+        },
+		 legend: {
+        enabled: false
+    },
+		 credits: {
+    enabled: false
+},
+
+        xAxis: {
+            type: 'datetime',
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'Liters consumed'
+            },
+            minorGridLineWidth: 0,
+            gridLineWidth: 0,
+            alternateGridColor: null,
+            plotBands: [{ // Light air
+                from: 0.3,
+                to: 1.5,
+                color: 'rgba(0,0,0,0)'
+
+            }, { // Light breeze
+                from: 1.5,
+                to: 3.3,
+                color: 'rgba(0,0,0,0)'
+
+
+            }, { // Gentle breeze
+                from: 3.3,
+                to: 5.5,
+                color: 'rgba(0,0,0,0)'
+
+
+            }, { // Moderate breeze
+                from: 5.5,
+                to: 8,
+                color: 'rgba(0,0,0,0)'
+
+
+            }, { // Fresh breeze
+                from: 8,
+                to: 11,
+                color: 'rgba(0,0,0,0)'
+
+            }, { // Strong breeze
+                from: 11,
+                to: 14,
+                color: 'rgba(0,0,0,0)'
+
+            }, { // High wind
+                from: 14,
+                to: 15,
+                color: 'rgba(0,0,0,0)'
+
+            }]
+        },
+        tooltip: {
+            valueSuffix: ' l/m'
+        },
+        plotOptions: {
+            series: {
+                color: '#2e2e2e'
+            },
+            spline: {
+                lineWidth: 4,
+                states: {
+                    hover: {
+                        lineWidth: 5
+                    }
+                },
+                marker: {
+                    enabled: false
+                },
+                pointInterval: 3600000, // one hour
+                pointStart: Date.UTC(2019, 8, 20, 0, 0, 0)
+            }
+        },
+        series: [{
+            name: '',
+            data: [
+                0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+                0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2
+            ]
+        }],
+        navigation: {
+            menuItemStyle: {
+                fontSize: '10px'
+            }
+        }
+    };
+
+
+    var chart = Highcharts.chart('containespline-one', c.chartData);
+
+
+    $rootScope.$on('markerClicked', function (e, args) {
+
+        if (args.amber) {
+            c.amber = true;
+            chart.series[0].setData([
+                0.2, 1, 0.2, 1.2, 0.2, 0.2, 0.2, 0.2, 0.9, 0.2, 0.2, 0.2,
+                0.2, 0.2, 0.2, 0.8, 0.2, 0.2, 0.2, 0.2, 0.2
+            ]);
+        } else{
+            c.amber = false;
+            chart.series[0].setData([
+                0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+                0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2
+            ]);
+        }
+        c.showDiv = true;
+    });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#containespline-one{
+  width: 100%;
+  height:250px;
+  overflow: hidden;
+
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>avs_spline_chart_1</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>AVS Spline Chart 1</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-30 22:20:58</sys_created_on>
+        <sys_id>fa7f259edb2f7b00ed6bf1471d96196c</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>AVS Spline Chart 1</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_widget_fa7f259edb2f7b00ed6bf1471d96196c</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-10-09 23:49:28</sys_updated_on>
+        <template><![CDATA[<div class="spline-one" ng-show="c.showDiv">
+  <!-- your widget template -->
+  <div id="containespline-one"></div>
+
+  <div class="text-center" ng-if="c.amber">
+    <a class="btn btn-default" href="?id=sc_cat_item&sys_id=443680c6dbaf3b007be0fb371d961916">Raise Case</a>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

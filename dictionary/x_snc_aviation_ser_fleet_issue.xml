@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="sm_order" label="Fleet Issue" max_length="40" name="x_snc_aviation_ser_fleet_issue" type="collection">
+        <element label="Aircraft" max_length="32" name="aircraft" reference="x_snc_aviation_ser_aircraft" type="reference"/>
+        <element choice="1" label="Fleet Type" max_length="40" name="fleet_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aircraft" value="aircraft"/>
+                <element inactive_on_update="false" label="Automobile" value="automobile"/>
+                <element inactive_on_update="false" label="Ship" value="ship"/>
+            </choice>
+        </element>
+    </element>
+</database>

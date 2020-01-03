@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Aviation Data" max_length="40" name="x_snc_aviation_ser_aviation_data" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Aircraft" max_length="32" name="aircraft" reference="x_snc_aviation_ser_aircraft" type="reference"/>
+        <element default="bf6aaa93db5773007be0fb371d961979" label="Aircraft Engine" max_length="32" name="aircraft_engine" reference="x_snc_aviation_ser_aircraft_engine" type="reference"/>
+        <element label="Barometric Altitude" max_length="40" name="baro_altitude" type="float"/>
+        <element label="Call Sign" max_length="40" name="callsign" reference="x_snc_aviation_ser_airline_callsign" type="reference"/>
+        <element label="Current Location" max_length="40" name="current_location" type="string"/>
+        <element label="Geometric Altitude" max_length="40" name="geo_altitude" type="float"/>
+        <element label="ICAO" max_length="40" name="icao24" type="string"/>
+        <element label="Last Contact" max_length="40" name="last_contact" type="integer"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="On Ground" max_length="40" name="on_ground" type="boolean"/>
+        <element label="Origin Country" max_length="40" name="origin_country" type="string"/>
+        <element label="Position Source" max_length="40" name="position_source" type="integer"/>
+        <element label="Sensors" max_length="40" name="sensors" type="integer"/>
+        <element label="Special Purpose" max_length="40" name="spi" type="boolean"/>
+        <element label="Transponder Code (Squawk)" max_length="40" name="squawk" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Time Position" max_length="40" name="time_position" type="integer"/>
+        <element label="True Track" max_length="40" name="true_track" type="float"/>
+        <element label="Velocity" max_length="40" name="velocity" type="float"/>
+        <element label="Vertical Rate" max_length="40" name="vertical_rate" type="float"/>
+        <index name="index">
+            <element name="aircraft"/>
+        </index>
+        <index name="index2">
+            <element name="aircraft_engine"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="DELETE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Engines">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="Aviation Service Management">5d578a83db533300ed6bf1471d961991</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-11-07 15:29:56</sys_created_on>
+        <sys_id>02372f501301c010c8e176076144b0e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Engines.Aviation Service Management</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_02372f501301c010c8e176076144b0e3</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:29:56</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>m2m_sp_portal_knowledge_base_02372f501301c010c8e176076144b0e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base"><m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><kb_knowledge_base display_value="Engines">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base><order>100</order><sp_portal display_value="Aviation Service Management">5d578a83db533300ed6bf1471d961991</sp_portal><sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-11-07 15:29:56</sys_created_on><sys_id>02372f501301c010c8e176076144b0e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Engines.Aviation Service Management</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>m2m_sp_portal_knowledge_base_02372f501301c010c8e176076144b0e3</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-11-07 15:29:56</sys_updated_on></m2m_sp_portal_knowledge_base></record_update>]]></payload>
+        <payload_hash>1660789589</payload_hash>
+        <record_name>Engines.Aviation Service Management</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-11-07 15:29:56</sys_created_on>
+        <sys_id>4e372f501301c010c8e176076144b0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e467c86160000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:29:56</sys_updated_on>
+        <type>Portal Knowledge Base</type>
+        <update_guid>86372f505401c01063f0837caeaab7e4</update_guid>
+        <update_guid_history>86372f505401c01063f0837caeaab7e4:1660789589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Engines.Aviation Service Management">838963541301c010c8e176076144b06e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-11-07 15:40:06</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_knowledge_base">m2m_sp_portal_knowledge_base</sys_db_object>
+        <sys_id>1d1150b67b7e4f23843ce655a04dc099</sys_id>
+        <sys_metadata>02372f501301c010c8e176076144b0e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Engines.Aviation Service Management</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_knowledge_base_02372f501301c010c8e176076144b0e3</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_knowledge_base_02372f501301c010c8e176076144b0e3">4e372f501301c010c8e176076144b0e4</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:40:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

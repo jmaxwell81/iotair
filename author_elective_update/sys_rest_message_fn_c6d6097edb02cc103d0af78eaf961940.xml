@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user>admin</basic_auth_user>
+        <content/>
+        <function_name>getNearbyAirports</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>GoogleMaps [ getNearbyAirports ]</qualified_name>
+        <rest_endpoint>https://maps.googleapis.com/maps/api/place/nearbysearch/json</rest_endpoint>
+        <rest_message display_value="GoogleMaps">5302b4e2db4a4c103d0af78eaf9619db</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 15:16:51</sys_created_on>
+        <sys_id>c6d6097edb02cc103d0af78eaf961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getNearbyAirports</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_rest_message_fn_c6d6097edb02cc103d0af78eaf961940</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:16:51</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_rest_message_fn_c6d6097edb02cc103d0af78eaf961940</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user>admin</basic_auth_user><content/><function_name>getNearbyAirports</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>GoogleMaps [ getNearbyAirports ]</qualified_name><rest_endpoint>https://maps.googleapis.com/maps/api/place/nearbysearch/json</rest_endpoint><rest_message display_value="GoogleMaps">5302b4e2db4a4c103d0af78eaf9619db</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-03 15:16:51</sys_created_on><sys_id>c6d6097edb02cc103d0af78eaf961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>getNearbyAirports</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_rest_message_fn_c6d6097edb02cc103d0af78eaf961940</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-03 15:16:51</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>396250375</payload_hash>
+        <record_name>getNearbyAirports</record_name>
+        <reverted_from/>
+        <source>962d98aedb864c103d0af78eaf96191e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 15:16:51</sys_created_on>
+        <sys_id>4ad6097edb02cc103d0af78eaf961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f6bfb088e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:16:51</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>82d6097eb902cc10ad6d1e03c5a8de42</update_guid>
+        <update_guid_history>82d6097eb902cc10ad6d1e03c5a8de42:396250375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 15:17:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>1861751873a74372ade50caab3ec7524</sys_id>
+        <sys_metadata>c6d6097edb02cc103d0af78eaf961940</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getNearbyAirports</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent display_value="GoogleMaps">5302b4e2db4a4c103d0af78eaf9619db</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_c6d6097edb02cc103d0af78eaf961940</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_c6d6097edb02cc103d0af78eaf961940">4ad6097edb02cc103d0af78eaf961942</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:17:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

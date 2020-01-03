@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_aviation_ser.aircraft_issues_user" name="x_snc_aviation_ser.aircraft_issues_user">88d89244dbf904103d0af78eaf961951</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:00</sys_created_on>
+        <sys_id>84d89244dbf904103d0af78eaf961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>88d89244dbf904103d0af78eaf961951</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_84d89244dbf904103d0af78eaf961956</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:00</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

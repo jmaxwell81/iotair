@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Aviation Ser Airline Callsign" max_length="40" name="u_imp_tmpl_x_snc_aviation_ser_airline_callsign" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Aircraft Operator" label="Aircraft Operator" max_length="120" name="u_aircraft_operator" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Callsign" label="Callsign" max_length="40" name="u_callsign" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Identifier" label="Identifier" max_length="40" name="u_identifier" type="string"/>
+    </element>
+</database>

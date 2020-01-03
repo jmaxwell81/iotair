@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom">
+    <kb_uc_can_contribute_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Fleet Service Management">df28ebd01301c010c8e176076144b003</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_contribute_mtom</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-11-07 15:34:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b486fd01301c010c8e176076144b0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fleet Service Management.Users with 'snc_internal' and another role</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>kb_uc_can_contribute_mtom_6b486fd01301c010c8e176076144b0ce</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:34:41</sys_updated_on>
+        <user_criteria display_value="Users with 'snc_internal' and another role">887d36ba57101300d873ac71ef94f9c7</user_criteria>
+    </kb_uc_can_contribute_mtom>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_aviation_ser_faa_master_data</description>
+        <name>x_snc_aviation_ser_faa_master_data</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-11-13 20:55:03</sys_created_on>
+        <sys_id>7a2be3d613c54010c8e176076144b090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser_faa_master_data</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_security_acl_7a2be3d613c54010c8e176076144b090</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-11-13 20:55:03</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

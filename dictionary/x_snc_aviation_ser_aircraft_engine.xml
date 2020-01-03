@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_aviation_ser_aircraft_equipment" label="Aircraft Engine" max_length="40" name="x_snc_aviation_ser_aircraft_engine" sizeclass="303" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Engine Image" max_length="40" name="engine_image" type="user_image"/>
+        <element label="Engine Overview" max_length="65536" name="engine_overview" type="html"/>
+        <element label="Horsepower" max_length="40" name="horsepower" type="string"/>
+        <element label="MFR" max_length="120" name="mfr" type="string"/>
+        <element label="Thrust" max_length="40" name="thrust" type="string"/>
+        <element label="Type" max_length="120" name="type" type="string"/>
+    </element>
+</database>

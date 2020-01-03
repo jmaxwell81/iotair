@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="b4a91a84dbf904103d0af78eaf9619d6" sys_domain="global" table="x_snc_aviation_ser_aircraft_issues" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>d3da74e01342c010c8e176076144b098</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aircraft</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>5fda74e01342c010c8e176076144b098</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>d3da74e01342c010c8e176076144b099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>5bda74e01342c010c8e176076144b099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>dfda74e01342c010c8e176076144b099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>57da74e01342c010c8e176076144b09a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>dbda74e01342c010c8e176076144b09a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>53da74e01342c010c8e176076144b09b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>d7da74e01342c010c8e176076144b09b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>5fda74e01342c010c8e176076144b09b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>d3da74e01342c010c8e176076144b09c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>5bda74e01342c010c8e176076144b09c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>dfda74e01342c010c8e176076144b09c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+            <sys_id>57da74e01342c010c8e176076144b09d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_aviation_ser_aircraft_issues</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-12-13 21:59:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4a91a84dbf904103d0af78eaf9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_aviation_ser_aircraft_issues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_ui_section_b4a91a84dbf904103d0af78eaf9619d6</sys_update_name>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-12-13 21:59:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_ui_section_b4a91a84dbf904103d0af78eaf9619d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b4a91a84dbf904103d0af78eaf9619d6" sys_domain="global" table="x_snc_aviation_ser_aircraft_issues" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>d3da74e01342c010c8e176076144b098</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>aircraft</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>5fda74e01342c010c8e176076144b098</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>d3da74e01342c010c8e176076144b099</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>5bda74e01342c010c8e176076144b099</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>dfda74e01342c010c8e176076144b099</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>57da74e01342c010c8e176076144b09a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_by</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>dbda74e01342c010c8e176076144b09a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_at</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>53da74e01342c010c8e176076144b09b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>d7da74e01342c010c8e176076144b09b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>5fda74e01342c010c8e176076144b09b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>d3da74e01342c010c8e176076144b09c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>5bda74e01342c010c8e176076144b09c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>dfda74e01342c010c8e176076144b09c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-27 14:38:11</sys_created_on><sys_id>57da74e01342c010c8e176076144b09d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_aircraft_issues" sys_domain="global" view="Default view">b4a91a84dbf904103d0af78eaf9619d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-27 14:38:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_aviation_ser_aircraft_issues</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-12-13 21:59:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b4a91a84dbf904103d0af78eaf9619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_aviation_ser_aircraft_issues</sys_name><sys_overrides/><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_ui_section_b4a91a84dbf904103d0af78eaf9619d6</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-12-13 21:59:36</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>248071581</payload_hash>
+        <record_name>Aircraft Issues</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-27 14:38:11</sys_created_on>
+        <sys_id>93da74e01342c010c8e176076144b0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f47cb1d730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-27 14:38:11</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>1bda74e01642c010c4e1b73ec14a899f</update_guid>
+        <update_guid_history>1bda74e01642c010c4e1b73ec14a899f:248071581,b1aaa4acabce8010181982d17fdda62c:-1273699872,005aac6ccfce80106498614a9153bd68:-639401338,6249282c12ce801071c9f0d5f14024d8:1070516869,980c504676754c10fc4c4733bf0c96b2:-642820381,8c0c50464a754c10a5020dd4eb0fe829:-1957008556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2020-01-03 15:59:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>304e0707836c4e248fb6140635484324</sys_id>
+        <sys_metadata>b4a91a84dbf904103d0af78eaf9619d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser_aircraft_issues</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent display_value="">4db8de04dbf904103d0af78eaf961994</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b4a91a84dbf904103d0af78eaf9619d6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b4a91a84dbf904103d0af78eaf9619d6">93da74e01342c010c8e176076144b0a0</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:59:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

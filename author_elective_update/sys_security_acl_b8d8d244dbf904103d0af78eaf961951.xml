@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_aviation_ser_aircraft_issues</description>
+        <name>x_snc_aviation_ser_aircraft_issues</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:03</sys_created_on>
+        <sys_id>b8d8d244dbf904103d0af78eaf961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser_aircraft_issues</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_security_acl_b8d8d244dbf904103d0af78eaf961951</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:03</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_security_acl_b8d8d244dbf904103d0af78eaf961951</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_aviation_ser_aircraft_issues</description><name>x_snc_aviation_ser_aircraft_issues</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-12-13 21:56:03</sys_created_on><sys_id>b8d8d244dbf904103d0af78eaf961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_aviation_ser_aircraft_issues</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_security_acl_b8d8d244dbf904103d0af78eaf961951</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-12-13 21:56:03</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>907991438</payload_hash>
+        <record_name>x_snc_aviation_ser_aircraft_issues</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:03</sys_created_on>
+        <sys_id>fcd8d244dbf904103d0af78eaf96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f0142f62f0000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:03</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>38d8d2447af9041074eb2004960be46c</update_guid>
+        <update_guid_history>38d8d2447af9041074eb2004960be46c:907991438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2020-01-03 15:59:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>4ff1154948f047f8ae2c9caad60a7224</sys_id>
+        <sys_metadata>b8d8d244dbf904103d0af78eaf961951</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser_aircraft_issues</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent display_value="">b0d8d244dbf904103d0af78eaf961970</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_security_acl_b8d8d244dbf904103d0af78eaf961951</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_b8d8d244dbf904103d0af78eaf961951">fcd8d244dbf904103d0af78eaf96196c</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:59:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">2c1fe40ddbab7700ed6bf1471d96199c</sp_column>
+        <sp_widget display_value="Custom search">03c8511cdb4f770040dff7b51d9619fe</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-26 20:27:04</sys_created_on>
+        <sys_id>f22fac4ddbab7700ed6bf1471d96192e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Welcome to TotalCare Portal</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_instance_f22fac4ddbab7700ed6bf1471d96192e</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-26 20:32:37</sys_updated_on>
+        <title>Welcome to TotalCare Portal</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"background_color_hex": {
+		"value": "#8F8B9E",
+		"displayValue": "#8F8B9E"
+	},
+	"text_color": {
+		"value": "#fff",
+		"displayValue": "#fff"
+	},
+	"short_description": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f22fac4ddbab7700ed6bf1471d96192e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>7a2349c7db9f734c0b9d21c405961996</instance_id>
+        <instance_name>rrpoc</instance_name>
+        <name>sp_instance_f22fac4ddbab7700ed6bf1471d96192e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;2c1fe40ddbab7700ed6bf1471d96199c&lt;/sp_column&gt;&lt;sp_widget display_value="Custom search"&gt;03c8511cdb4f770040dff7b51d9619fe&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sush.chan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-26 20:27:04&lt;/sys_created_on&gt;&lt;sys_id&gt;f22fac4ddbab7700ed6bf1471d96192e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Welcome to TotalCare Portal&lt;/sys_name&gt;&lt;sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser"&gt;64764643db533300ed6bf1471d96193a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aviation Service Management"&gt;64764643db533300ed6bf1471d96193a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_f22fac4ddbab7700ed6bf1471d96192e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sush.chan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-26 20:32:37&lt;/sys_updated_on&gt;&lt;title&gt;Welcome to TotalCare Portal&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"background_color_hex": {
+		"value": "#8F8B9E",
+		"displayValue": "#8F8B9E"
+	},
+	"text_color": {
+		"value": "#fff",
+		"displayValue": "#fff"
+	},
+	"short_description": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f22fac4ddbab7700ed6bf1471d96192e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1290248167</payload_hash>
+        <record_name>Welcome to TotalCare Portal</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-26 20:32:37</sys_created_on>
+        <sys_id>4c707c8ddbab7700ed6bf1471d961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ccfa168070000001</sys_recorded_at>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-26 20:32:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c4707c8d1aab77004c031199cb9cb536</update_guid>
+        <update_guid_history>c4707c8d1aab77004c031199cb9cb536:1290248167,3a2fac4db5ab7700feb3602738c8a32f:2092693709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0790f4cddbab7700ed6bf1471d961959</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-26 20:33:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>8fad34ddb7594d70ac7c4930b2e4a640</sys_id>
+        <sys_metadata>f22fac4ddbab7700ed6bf1471d96192e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome to TotalCare Portal</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sp_instance_f22fac4ddbab7700ed6bf1471d96192e</sys_update_name>
+        <sys_update_version display_value="sp_instance_f22fac4ddbab7700ed6bf1471d96192e">4c707c8ddbab7700ed6bf1471d961936</sys_update_version>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-26 20:33:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

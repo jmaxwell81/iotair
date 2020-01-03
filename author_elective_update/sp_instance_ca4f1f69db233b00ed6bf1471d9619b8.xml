@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">4170b32ddb633b00ed6bf1471d9619c7</sp_column>
+        <sp_widget display_value="PE Donut Chart Wizard">0bc1804513293600d15e3d7ed144b0f2</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 22:33:28</sys_created_on>
+        <sys_id>ca4f1f69db233b00ed6bf1471d9619b8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_instance_ca4f1f69db233b00ed6bf1471d9619b8</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 23:48:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"chart_data": {
+		"value": "{\n  \"label\": \"254 Active Engines\",\n  \"current\": 254,\n  \"total\": 303\n}",
+		"displayValue": "{\n  \"label\": \"254 Active Engines\",\n  \"current\": 254,\n  \"total\": 303\n}"
+	},
+	"primary_color": {
+		"value": "#3D4850",
+		"displayValue": "#3D4850"
+	},
+	"background_color": {
+		"value": "#E7EBF0",
+		"displayValue": "#E7EBF0"
+	},
+	"chart_width": {
+		"value": "160",
+		"displayValue": "160"
+	},
+	"font_size": {
+		"value": "16px",
+		"displayValue": "16px"
+	},
+	"font_weight": {
+		"value": "300",
+		"displayValue": "300"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=ca4f1f69db233b00ed6bf1471d9619b8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>7a2349c7db9f734c0b9d21c405961996</instance_id>
+        <instance_name>rrpoc</instance_name>
+        <name>sp_instance_ca4f1f69db233b00ed6bf1471d9619b8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;4170b32ddb633b00ed6bf1471d9619c7&lt;/sp_column&gt;&lt;sp_widget display_value="PE Donut Chart Wizard"&gt;0bc1804513293600d15e3d7ed144b0f2&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sush.chan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-28 22:33:28&lt;/sys_created_on&gt;&lt;sys_id&gt;ca4f1f69db233b00ed6bf1471d9619b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser"&gt;64764643db533300ed6bf1471d96193a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aviation Service Management"&gt;64764643db533300ed6bf1471d96193a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ca4f1f69db233b00ed6bf1471d9619b8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sush.chan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-28 23:48:37&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"chart_data": {
+		"value": "{\n  \"label\": \"254 Active Engines\",\n  \"current\": 254,\n  \"total\": 303\n}",
+		"displayValue": "{\n  \"label\": \"254 Active Engines\",\n  \"current\": 254,\n  \"total\": 303\n}"
+	},
+	"primary_color": {
+		"value": "#3D4850",
+		"displayValue": "#3D4850"
+	},
+	"background_color": {
+		"value": "#E7EBF0",
+		"displayValue": "#E7EBF0"
+	},
+	"chart_width": {
+		"value": "160",
+		"displayValue": "160"
+	},
+	"font_size": {
+		"value": "16px",
+		"displayValue": "16px"
+	},
+	"font_weight": {
+		"value": "300",
+		"displayValue": "300"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ca4f1f69db233b00ed6bf1471d9619b8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1047621180</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 23:48:37</sys_created_on>
+        <sys_id>7670f32ddb633b00ed6bf1471d961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cdaa190f30000001</sys_recorded_at>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 23:48:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fe70f32d1f633b00f327d747cbaf7921</update_guid>
+        <update_guid_history>fe70f32d1f633b00f327d747cbaf7921:1047621180,b270f32d7e633b008d07a14ec9f0341f:-285796387,bd70f32def633b008cd8ed12446d6900:1047621180,7170b32dba633b00d60e2caf6eec84fe:-285796387,2970b32d59633b00c2b5e2d266705bdf:-2121946029,c570b32d9b633b008a583b3a4c7e1bca:-285796387,f6e0a7e9ad233b007e3dabddfe45735f:-2121946029,f16023e924233b006474c8b1f94d8536:-1209662595,76306fa953233b004162de7623d3d82b:-325101513,79002fa9fe233b00181422fdda871376:368421605,7eefdba9ab233b00a66d91141673543e:348021755,eecf5f6960233b005e80ba414deac57d:123322615,024f1f69b0233b00889f642e59f872ba:-1702960477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bf70732ddb633b00ed6bf1471d961958</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 23:48:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>514116fe54c84e80bcadd8ccca080400</sys_id>
+        <sys_metadata>ca4f1f69db233b00ed6bf1471d9619b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sp_instance_ca4f1f69db233b00ed6bf1471d9619b8</sys_update_name>
+        <sys_update_version display_value="sp_instance_ca4f1f69db233b00ed6bf1471d9619b8">7670f32ddb633b00ed6bf1471d961922</sys_update_version>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 23:48:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>body {
+	background-color: #80B6A1;
+}
+
+nav {
+	z-index: 1000;
+}
+
+body &gt; div &gt; section &gt; main &gt; div &gt; div &gt; sp-page-row &gt; div &gt; div {
+	padding-left: unset !important;
+  	padding-right: unset !important;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>avs_login</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>brian.clauzel</sys_created_by>
+        <sys_created_on>2019-10-01 19:07:52</sys_created_on>
+        <sys_id>6146fdacdbdc08107be0fb371d96199f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>avs_login</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_page_6146fdacdbdc08107be0fb371d96199f</sys_update_name>
+        <sys_updated_by>jacob.shemkovitz</sys_updated_by>
+        <sys_updated_on>2019-11-06 16:51:34</sys_updated_on>
+        <title>AVS Login</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=6146fdacdbdc08107be0fb371d96199f"/>
+</record_update>

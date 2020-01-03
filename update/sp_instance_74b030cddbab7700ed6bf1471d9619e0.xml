@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2fa0b4cddbab7700ed6bf1471d96196d</sp_column>
+        <sp_widget display_value="Pic box">b45819d8db4f770040dff7b51d9619a1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-26 20:33:45</sys_created_on>
+        <sys_id>74b030cddbab7700ed6bf1471d9619e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_instance_74b030cddbab7700ed6bf1471d9619e0</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 22:51:59</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"bg_image": {
+		"value": "home-page-banner.jpg",
+		"displayValue": "home-page-banner.jpg"
+	},
+	"align_image": {
+		"value": "center",
+		"displayValue": "center"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=74b030cddbab7700ed6bf1471d9619e0"/>
+</record_update>

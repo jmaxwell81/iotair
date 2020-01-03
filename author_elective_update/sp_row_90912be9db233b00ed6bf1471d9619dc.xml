@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <sp_column display_value="2">1cf07ccddbab7700ed6bf1471d961956</sp_column>
+        <sp_container/>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 22:43:28</sys_created_on>
+        <sys_id>90912be9db233b00ed6bf1471d9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_row_90912be9db233b00ed6bf1471d9619dc</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 22:43:28</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>7a2349c7db9f734c0b9d21c405961996</instance_id>
+        <instance_name>rrpoc</instance_name>
+        <name>sp_row_90912be9db233b00ed6bf1471d9619dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>2</order><sp_column display_value="2">1cf07ccddbab7700ed6bf1471d961956</sp_column><sp_container/><sys_class_name>sp_row</sys_class_name><sys_created_by>sush.chan</sys_created_by><sys_created_on>2019-08-28 22:43:28</sys_created_on><sys_id>90912be9db233b00ed6bf1471d9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sp_row_90912be9db233b00ed6bf1471d9619dc</sys_update_name><sys_updated_by>sush.chan</sys_updated_by><sys_updated_on>2019-08-28 22:43:28</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1782585489</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 22:43:28</sys_created_on>
+        <sys_id>5c91232ddb233b00ed6bf1471d9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cda65ec1b0000001</sys_recorded_at>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 22:43:28</sys_updated_on>
+        <type>Row</type>
+        <update_guid>50912be9b4233b00dc17fa1b610b43dd</update_guid>
+        <update_guid_history>50912be9b4233b00dc17fa1b610b43dd:1782585489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4a60732ddb633b00ed6bf1471d9619cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 23:48:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>84aa5b226d8d40b0964aa35e10c79e40</sys_id>
+        <sys_metadata>90912be9db233b00ed6bf1471d9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sp_row_90912be9db233b00ed6bf1471d9619dc</sys_update_name>
+        <sys_update_version display_value="sp_row_90912be9db233b00ed6bf1471d9619dc">5c91232ddb233b00ed6bf1471d9619c8</sys_update_version>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 23:48:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

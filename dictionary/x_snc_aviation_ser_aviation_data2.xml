@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Aviation Data2" max_length="40" name="x_snc_aviation_ser_aviation_data2" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Aircraft" max_length="32" name="aircraft" reference="x_snc_aviation_ser_aircraft" type="reference"/>
+        <element default="bf6aaa93db5773007be0fb371d961979" label="Aircraft Engine" max_length="32" name="aircraft_engine" reference="x_snc_aviation_ser_aircraft_engine" type="reference"/>
+        <element label="Barometric Altitude" max_length="40" name="barometric_altitude" type="float"/>
+        <element label="Call Sign" max_length="32" name="call_sign" reference="x_snc_aviation_ser_airline_callsign" type="reference"/>
+        <element display="true" label="Call Sign Full" max_length="40" name="call_sign_full" type="string"/>
+        <element label="Current Location" max_length="40" name="current_location" type="string"/>
+        <element label="Geometric Altitude" max_length="40" name="geometric_altitude" type="float"/>
+        <element label="ICAO" max_length="40" name="icao" type="string"/>
+        <element choice="1" default="0" label="Issue priority" max_length="40" name="issue_priority" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2 - High" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3 - Moderate" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4 - Low" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="format=none" label="Last Contact" max_length="40" name="last_contact" type="integer"/>
+        <element label="Last Contact dt" max_length="40" name="last_contact_dt" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="On Ground" max_length="40" name="on_ground" type="boolean"/>
+        <element label="Origin Country" max_length="40" name="origin_country" type="string"/>
+        <element label="Position Source" max_length="40" name="position_source" type="integer"/>
+        <element label="Sensors" max_length="40" name="sensors" type="integer"/>
+        <element label="Special Purpose" max_length="40" name="special_purpose" type="boolean"/>
+        <element attributes="format=none" label="Time Position" max_length="40" name="time_position" type="integer"/>
+        <element label="Time Position dt" max_length="40" name="time_position_dt" type="string"/>
+        <element label="Transponder Code" max_length="40" name="transponder_code" type="string"/>
+        <element label="true track" max_length="40" name="true_track" type="float"/>
+        <element label="Velocity" max_length="40" name="velocity" type="float"/>
+        <element label="Vertical Rate" max_length="40" name="vertical_rate" type="float"/>
+        <index name="index">
+            <element name="aircraft"/>
+        </index>
+        <index name="index2">
+            <element name="call_sign"/>
+        </index>
+        <index name="index3">
+            <element name="aircraft_engine"/>
+        </index>
+    </element>
+</database>

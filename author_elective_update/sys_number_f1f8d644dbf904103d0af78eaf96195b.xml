@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_snc_aviation_ser_aircraft_issues">x_snc_aviation_ser_aircraft_issues</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>AIRISS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:39</sys_created_on>
+        <sys_id>f1f8d644dbf904103d0af78eaf96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AIRISS</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_number_f1f8d644dbf904103d0af78eaf96195b</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:39</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_number_f1f8d644dbf904103d0af78eaf96195b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_snc_aviation_ser_aircraft_issues">x_snc_aviation_ser_aircraft_issues</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>AIRISS</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-12-13 21:56:39</sys_created_on><sys_id>f1f8d644dbf904103d0af78eaf96195b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AIRISS</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_number_f1f8d644dbf904103d0af78eaf96195b</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-12-13 21:56:39</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1269167956</payload_hash>
+        <record_name>AIRISS</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:40</sys_created_on>
+        <sys_id>b9f8d644dbf904103d0af78eaf961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f014385cd0000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:40</sys_updated_on>
+        <type>Number</type>
+        <update_guid>f1f8d644def90410e6666768fbc4bd63</update_guid>
+        <update_guid_history>f1f8d644def90410e6666768fbc4bd63:-1269167956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2020-01-03 15:59:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>83170af17bb54424b809f548c7eeddf1</sys_id>
+        <sys_metadata>f1f8d644dbf904103d0af78eaf96195b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AIRISS</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent display_value="">4db8de04dbf904103d0af78eaf961994</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_number_f1f8d644dbf904103d0af78eaf96195b</sys_update_name>
+        <sys_update_version display_value="sys_number_f1f8d644dbf904103d0af78eaf96195b">b9f8d644dbf904103d0af78eaf961963</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:59:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

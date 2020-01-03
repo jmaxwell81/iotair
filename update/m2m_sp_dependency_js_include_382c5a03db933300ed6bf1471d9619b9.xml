@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>400</order>
+        <sp_dependency display_value="Leaflet NG">a25bdecfdb533300ed6bf1471d9619b4</sp_dependency>
+        <sp_js_include display_value="leaflet directive">98fb9603db933300ed6bf1471d96198d</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-20 23:15:18</sys_created_on>
+        <sys_id>382c5a03db933300ed6bf1471d9619b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Leaflet NG.leaflet directive</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_382c5a03db933300ed6bf1471d9619b9</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-20 23:20:28</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

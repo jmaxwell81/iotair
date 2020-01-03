@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Fleet Service Management">df28ebd01301c010c8e176076144b003</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="Aviation Service Management">5d578a83db533300ed6bf1471d961991</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-11-07 15:40:06</sys_created_on>
+        <sys_id>478963541301c010c8e176076144b06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fleet Service Management.Aviation Service Management</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_478963541301c010c8e176076144b06a</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-11-07 15:40:06</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+</record_update>

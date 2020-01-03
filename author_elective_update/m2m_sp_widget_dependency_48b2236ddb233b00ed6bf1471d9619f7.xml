@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="HighCharts">08a3bac79323120064f572edb67ffb32</sp_dependency>
+        <sp_widget display_value="AVS Solid Gauge">7a322b2ddb233b00ed6bf1471d9619bf</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 22:48:22</sys_created_on>
+        <sys_id>48b2236ddb233b00ed6bf1471d9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HighCharts.AVS Solid Gauge</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_48b2236ddb233b00ed6bf1471d9619f7</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 22:48:22</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>7a2349c7db9f734c0b9d21c405961996</instance_id>
+        <instance_name>rrpoc</instance_name>
+        <name>m2m_sp_widget_dependency_48b2236ddb233b00ed6bf1471d9619f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="HighCharts">08a3bac79323120064f572edb67ffb32</sp_dependency><sp_widget display_value="AVS Solid Gauge">7a322b2ddb233b00ed6bf1471d9619bf</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>sush.chan</sys_created_by><sys_created_on>2019-08-28 22:48:22</sys_created_on><sys_id>48b2236ddb233b00ed6bf1471d9619f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HighCharts.AVS Solid Gauge</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>m2m_sp_widget_dependency_48b2236ddb233b00ed6bf1471d9619f7</sys_update_name><sys_updated_by>sush.chan</sys_updated_by><sys_updated_on>2019-08-28 22:48:22</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>317128541</payload_hash>
+        <record_name>HighCharts.AVS Solid Gauge</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 22:48:22</sys_created_on>
+        <sys_id>ccb2236ddb233b00ed6bf1471d9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cda6a68130000001</sys_recorded_at>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 22:48:22</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>08b2236d75233b00263274cdee05bef9</update_guid>
+        <update_guid_history>08b2236d75233b00263274cdee05bef9:317128541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1a082ba1db633b00ed6bf1471d9619f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-28 23:11:43</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>a25f4a9b5fb94c88a5e54999d8dae384</sys_id>
+        <sys_metadata>48b2236ddb233b00ed6bf1471d9619f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HighCharts.AVS Solid Gauge</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_48b2236ddb233b00ed6bf1471d9619f7</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_48b2236ddb233b00ed6bf1471d9619f7">ccb2236ddb233b00ed6bf1471d9619f9</sys_update_version>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-28 23:11:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

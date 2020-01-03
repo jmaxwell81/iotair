@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Airports" max_length="40" name="x_snc_aviation_ser_airports" type="collection">
+        <element label="City" max_length="100" name="airport_city" type="string"/>
+        <element label="country" max_length="40" name="airport_country" type="string"/>
+        <element label=" Airport ID" max_length="40" name="airport_id" type="string"/>
+        <element label="Airport Name" max_length="100" name="airport_name" type="string"/>
+        <element label="Altitude" max_length="40" name="altitude" type="integer"/>
+        <element label="DST" max_length="1" name="dst" type="string"/>
+        <element label="IATA" max_length="3" name="iata" type="string"/>
+        <element label="ICAO" max_length="4" name="icao" type="string"/>
+        <element label="Latatude" max_length="40" name="latatude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element default="OurAirports" label="Source" max_length="40" name="source" type="string"/>
+        <element label="Timezone" max_length="40" name="timezone" type="string"/>
+        <element default="airport" label="Type" max_length="40" name="type" type="string"/>
+        <element label="TZ database time" max_length="40" name="tz_database_time" type="string"/>
+    </element>
+</database>

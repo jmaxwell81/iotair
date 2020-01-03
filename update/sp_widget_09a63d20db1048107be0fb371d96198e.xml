@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function loginCtrl($scope, $http, $window, $location, glideUserSession, glideSystemProperties, spUtil) {
+
+  var c = this;
+  console.log('yeet');
+	c.remember_me = c.data.forgetMeDefault;
+
+	if (!c.data.is_logged_in && c.data.multisso_enabled && c.data.default_idp) {
+		c.server.get({
+			action: "set_sso_destination",
+			pageURI: c.data.pageURI
+		}).then(function() {
+			$window.location = "/login_with_sso.do?glide_sso_id=" + c.data.default_idp;
+		});
+	}
+
+	c.login = function(username, password) { 
+		var url = spUtil.getURL({sysparm_type: 'view_form.login'});
+		
+		// If the page isn't public, then the ID in the
+		// URL won't match the rendered page ID
+		var pageId = $location.search().id || $scope.page.id;
+		var isLoginPage = $scope.portal.login_page_dv == pageId;
+
+		return $http({
+			method: 'post',
+			url: url,
+			data: $.param({
+				'sysparm_type': 'login',
+				'ni.nolog.user_password': true,
+				'remember_me': !!c.remember_me ? true : false,
+				'user_name': username,
+				'user_password': password,
+				'get_redirect_url': true,
+				'sysparm_goto_url': isLoginPage ? null : $location.url(),
+				'mfa_redirect_url': c.data.pageURI
+			}),
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded'
+			}
+		}).then(function(response) {
+			if (!response.data) {
+				c.message = $scope.data.errorMsg;
+				return;
+			}
+
+			if (response.data.status == 'success') {
+				if (c.data.multiFactorAuthEnabled) {
+					c.server.get({
+						action: "multi_factor_auth_setup",
+						directTo: response.data.redirect_url
+					}).then(handleLoginSuccess.bind(response));
+				} else {
+					handleLoginSuccess.call(response);
+					$window.location = '/avs';
+				}
+			} else if (response.data.status == 'mfa_code_required') {
+					$window.location = '/validate_multifactor_auth_code.do';
+			} else {
+				// wrong username or password
+				c.message = response.data.message;
+				c.password = "";
+				c.username = "";
+				angular.element("#username").focus();
+			}
+
+		}, function errorCallback(response) {
+			c.message = $scope.data.errorMsg;
+		});
+	};
+
+	c.externalLogin = function() {
+		c.server.get({
+			action: "set_sso_destination",
+			pageURI: c.data.pageURI
+		}).then(function() {
+			glideSystemProperties.set("glide.authenticate.multisso.enabled", true);
+
+			glideUserSession.getSsoRedirectUrlForUsername(c.username)
+				.then(function(url) {
+					$window.location = url;
+				}, function(err) {
+					spUtil.addErrorMessage($scope.data.errorMsg2);
+				});
+		});
+	}
+
+	function handleLoginSuccess() {
+		c.success = this.data.message;
+		$window.location = this.data.redirect_url;
+	}
+
+	c.setExternalLogin = function(newVal) {
+		c.externalLoginMode = newVal;
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.white {
+    background-color: #ffffff;
+    width: 50%;
+    height: 100px;
+}
+
+.padding-none {
+    padding-left: unset !important;
+    padding-right: unset !important;
+}
+
+.panel {
+    border-radius: unset !important;
+    border: unset !important;
+    margin-bottom: unset !important;
+}
+
+.wraps {
+    height:  -webkit-fill-available;
+}
+
+.blue {
+    background-color: transparent;
+}
+
+.logo-image {
+    width: 100%;
+}
+
+.login-container {
+  margin: 50px auto 0;
+    //margin-left: -350px;
+    //margin-right: auto;
+    //position: absolute;
+    width: 700px;
+    //margin-top: 100px;
+    //top: 50%;
+    //left: 50%;
+}
+
+.rel {
+    top: 50%;
+    position: relative;
+}  
+
+form {
+    margin-top: 75px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 900;
+  color: white;
+}
+
+.form-control {
+    height: 53px;
+    border-radius: 25px !important;
+    border: 2px solid #100d88 !important;
+    box-shadow: 3px 4px 2px -1px rgba(255,255,255,0.4);
+}
+
+button {
+    background-color: #ffffff;
+    color: #271EA8; 
+    font-size: 22px;
+    font-weight: 900;
+    width: 200px;
+}
+
+.but-con {
+    text-align: center;
+}
+
+.right-con {
+    //position: relative;
+    //left: 35%;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-top: 25%;
+}
+
+.total-care, .portal-text {
+    color: #f5f5f5;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>avs_login</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>AVS Login</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	options.show_panel = options.show_panel == "true" || options.show_panel == true;
+	
+	if (input && input.action === "multi_factor_auth_setup") {
+		if (gs.getSession().getProperty("setup_multifactor_authn")) {
+			gs.getSession().putProperty("nav_to", input.directTo);
+			gs.getSession().putProperty("starting_page", input.directTo);
+			gs.getSession().putProperty("is_direct_redirect", "true");
+		}
+		return;
+	}
+	
+	// We don't want to set a starting page until we've begun the login process.
+	if (input && input.action === "set_sso_destination") {
+		var gs_nav_to = gs.getSession().getProperty("nav_to");
+		gs.getSession().putProperty("nav_to", null);
+		if (!gs.getSession().getProperty("starting_page"))
+			gs.getSession().putProperty("starting_page", gs_nav_to);
+
+		return;
+	}
+
+	data.errorMsg = gs.getMessage("There was an error processing your request");
+	data.errorMsg2 = gs.getMessage("An error has occurred - please contact your system administrator");
+	data.passwordMsg = gs.getMessage("Password");
+	data.usernameMsg = gs.getMessage("User name");
+	data.forgetMe = GlideProperties.getBoolean("glide.ui.forgetme");
+	data.forgetMeDefault = GlideProperties.getBoolean('glide.ui.remember.me.default', true);
+	data.is_logged_in = gs.getSession().isLoggedIn();
+	var bypass_sso = options.bypass_sso == "true";
+	data.multisso_enabled = !bypass_sso && GlideProperties.getBoolean("glide.authenticate.multisso.enabled");			
+	data.default_idp = GlideProperties.get("glide.authenticate.sso.redirect.idp");
+	data.pageURI = new GlideSPUtil().getPageUri();
+	data.multiFactorAuthEnabled = GlideProperties.getBoolean('glide.authenticate.multifactor', false);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>brian.clauzel</sys_created_by>
+        <sys_created_on>2019-10-01 19:09:29</sys_created_on>
+        <sys_id>09a63d20db1048107be0fb371d96198e</sys_id>
+        <sys_mod_count>119</sys_mod_count>
+        <sys_name>AVS Login</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_widget_09a63d20db1048107be0fb371d96198e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 18:43:41</sys_updated_on>
+        <template><![CDATA[<!-- <div class="col-md-6">
+    <div class="row">
+        <div class="col-md-12 padding-none">
+            <div class="panel">
+                <div class="wrapper-md wraps">
+                    <div class="white"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12 padding-none">
+            <div class="panel blue">
+                <div class="wrapper-md wraps">
+                    <div class='blue-side'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="rel">
+    <div class="login-container">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="plane-logo.png" class="logo-image" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12 right-con">
+                    <div class="total-care">iOT in Air</div>
+                    <div class="portal-text">PORTAL</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form action="" name="login" id="login" ng-submit="c.login(c.username, c.password)">
+                    <div class="form-group">
+                        <label for="">Username</label>
+                        <input type="text" class="email form-control" ng-model="c.username">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" class="password form-control" ng-model="c.password">
+                    </div>
+                    <div class="inline-cart">
+                        <div class="wrapper-md">
+                            <div class="text-right but-con">
+                                <button type="submit" class="btn btn-primary form-control">LOG IN</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

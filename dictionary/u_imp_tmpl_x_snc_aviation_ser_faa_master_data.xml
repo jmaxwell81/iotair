@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Snc Aviation Ser Faa Master Data" max_length="40" name="u_imp_tmpl_x_snc_aviation_ser_faa_master_data" sizeclass="10000" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Air Worth Date" label="Air Worth Date" max_length="120" name="u_air_worth_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Certification" label="Certification" max_length="120" name="u_certification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cert Issue Date" label="Cert Issue Date" max_length="120" name="u_cert_issue_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="120" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="120" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County" label="County" max_length="120" name="u_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Eng Mfr Mdl" label="Eng Mfr Mdl" max_length="120" name="u_eng_mfr_mdl" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expiration Date" label="Expiration Date" max_length="120" name="u_expiration_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fract Owner" label="Fract Owner" max_length="120" name="u_fract_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Kit Mfr" label="Kit Mfr" max_length="120" name="u_kit_mfr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Kit Model" label="Kit Model" max_length="120" name="u_kit_model" type="string"/>
+        <element attributes="import_attribute_name=Last Action Date" label="Last Action Date" max_length="120" name="u_last_action_date" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mfr Mdl Code" label="Mfr Mdl Code" max_length="120" name="u_mfr_mdl_code" type="string"/>
+        <element attributes="import_attribute_name=Mode S Code" label="Mode S Code" max_length="120" name="u_mode_s_code" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mode S Code Hex" label="Mode S Code Hex" max_length="120" name="u_mode_s_code_hex" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="120" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=N-Number" label="N-Number" max_length="120" name="u_n_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Names(1)" label="Other Names(1)" max_length="120" name="u_other_names_1_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Names(2)" label="Other Names(2)" max_length="120" name="u_other_names_2_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Names(3)" label="Other Names(3)" max_length="120" name="u_other_names_3_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Names(4)" label="Other Names(4)" max_length="120" name="u_other_names_4_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Names(5)" label="Other Names(5)" max_length="120" name="u_other_names_5_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="120" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial Number" label="Serial Number" max_length="120" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="120" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status Code" label="Status Code" max_length="120" name="u_status_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Street" label="Street" max_length="120" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Street2" label="Street2" max_length="120" name="u_street2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type Aircraft" label="Type Aircraft" max_length="120" name="u_type_aircraft" type="string"/>
+        <element attributes="import_attribute_name=Type Engine" label="Type Engine" max_length="120" name="u_type_engine" type="integer"/>
+        <element attributes="import_attribute_name=Type Registrant" label="Type Registrant" max_length="120" name="u_type_registrant" type="integer"/>
+        <element attributes="import_attribute_name=Unique ID" label="Unique ID" max_length="120" name="u_unique_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Year Mfr" label="Year Mfr" max_length="120" name="u_year_mfr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip Code" label="Zip Code" max_length="120" name="u_zip_code" type="string"/>
+    </element>
+</database>

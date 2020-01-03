@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:02</sys_created_on>
+        <sys_id>70d8d244dbf904103d0af78eaf961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser_aircraft_issues.x_snc_aviation_ser.aircraft_issues_user</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_security_acl display_value="x_snc_aviation_ser_aircraft_issues">20d8d244dbf904103d0af78eaf961932</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_70d8d244dbf904103d0af78eaf961936</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:02</sys_updated_on>
+        <sys_user_role display_value="x_snc_aviation_ser.aircraft_issues_user" name="x_snc_aviation_ser.aircraft_issues_user">88d89244dbf904103d0af78eaf961951</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_security_acl_role_70d8d244dbf904103d0af78eaf961936</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-12-13 21:56:02</sys_created_on><sys_id>70d8d244dbf904103d0af78eaf961936</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_aviation_ser_aircraft_issues.x_snc_aviation_ser.aircraft_issues_user</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_security_acl display_value="x_snc_aviation_ser_aircraft_issues">20d8d244dbf904103d0af78eaf961932</sys_security_acl><sys_update_name>sys_security_acl_role_70d8d244dbf904103d0af78eaf961936</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-12-13 21:56:02</sys_updated_on><sys_user_role display_value="x_snc_aviation_ser.aircraft_issues_user" name="x_snc_aviation_ser.aircraft_issues_user">88d89244dbf904103d0af78eaf961951</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-643931553</payload_hash>
+        <record_name>x_snc_aviation_ser_aircraft_issues.x_snc_aviation_ser.aircraft_issues_user</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:02</sys_created_on>
+        <sys_id>f0d8d244dbf904103d0af78eaf961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f0142f47b0000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3cd8d2440ef904104aa22b22683cd338</update_guid>
+        <update_guid_history>3cd8d2440ef904104aa22b22683cd338:-643931553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_aviation_ser_aircraft_issues.x_snc_aviation_ser.aircraft_issues_user">9d80113e13ce4c10c8e176076144b0d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2020-01-03 15:59:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>02b47e5358734b808dbc6f583fc6a400</sys_id>
+        <sys_metadata>70d8d244dbf904103d0af78eaf961936</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser_aircraft_issues.x_snc_aviation_ser.aircraft_issues_user</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent display_value="">20d8d244dbf904103d0af78eaf961932</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_70d8d244dbf904103d0af78eaf961936</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_70d8d244dbf904103d0af78eaf961936">f0d8d244dbf904103d0af78eaf961939</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:59:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0c35f75613094010c8e176076144b079" sys_domain="global" table="x_snc_aviation_ser_faa_master_data" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>04353b5613094010c8e176076144b05e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>1</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>88353b5613094010c8e176076144b05e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mfr_mdl_code</element>
+            <position>2</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>00353b5613094010c8e176076144b05f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>n_number</element>
+            <position>3</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>84353b5613094010c8e176076144b05f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>4</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>0c353b5613094010c8e176076144b05f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street2</element>
+            <position>5</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>80353b5613094010c8e176076144b060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eng_mfr_mdl</element>
+            <position>6</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>08353b5613094010c8e176076144b060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year_mfr</element>
+            <position>7</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>8c353b5613094010c8e176076144b060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>8</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>04353b5613094010c8e176076144b061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_registrant</element>
+            <position>9</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>88353b5613094010c8e176076144b061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>10</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>00353b5613094010c8e176076144b062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>11</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>84353b5613094010c8e176076144b062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_aircraft</element>
+            <position>12</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>0c353b5613094010c8e176076144b062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip_code</element>
+            <position>13</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>80353b5613094010c8e176076144b063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <position>14</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>08353b5613094010c8e176076144b063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certification</element>
+            <position>15</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>8c353b5613094010c8e176076144b063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_action_date</element>
+            <position>16</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>04353b5613094010c8e176076144b064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>17</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>88353b5613094010c8e176076144b064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_engine</element>
+            <position>18</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>00353b5613094010c8e176076144b065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cert_issue_date</element>
+            <position>19</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>84353b5613094010c8e176076144b065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>county</element>
+            <position>20</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>0c353b5613094010c8e176076144b065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fract_owner</element>
+            <position>21</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>80353b5613094010c8e176076144b066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mode_s_code</element>
+            <position>22</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>08353b5613094010c8e176076144b066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_names_1</element>
+            <position>23</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>8c353b5613094010c8e176076144b066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_names_4</element>
+            <position>24</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>04353b5613094010c8e176076144b067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status_code</element>
+            <position>25</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>88353b5613094010c8e176076144b067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_names_2</element>
+            <position>26</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>00353b5613094010c8e176076144b068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>air_worth_date</element>
+            <position>27</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>84353b5613094010c8e176076144b068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_names_3</element>
+            <position>28</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>0c353b5613094010c8e176076144b068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unique_id</element>
+            <position>29</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>80353b5613094010c8e176076144b069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kit_mfr</element>
+            <position>30</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>08353b5613094010c8e176076144b069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mode_s_code_hex</element>
+            <position>31</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>8c353b5613094010c8e176076144b069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expiration_date</element>
+            <position>32</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>04353b5613094010c8e176076144b06a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_names_5</element>
+            <position>33</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>88353b5613094010c8e176076144b06a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kit_model</element>
+            <position>34</position>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_id>00353b5613094010c8e176076144b06b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_aviation_ser_faa_master_data" sys_domain="global" view="Default view">0c35f75613094010c8e176076144b079</sys_ui_section>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_aviation_ser_faa_master_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:38:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c35f75613094010c8e176076144b079</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_aviation_ser_faa_master_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_ui_section_0c35f75613094010c8e176076144b079</sys_update_name>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:38:49</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

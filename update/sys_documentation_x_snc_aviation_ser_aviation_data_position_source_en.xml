@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="position_source" label="Position Source" language="en" table="x_snc_aviation_ser_aviation_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>position_source</element>
+            <help/>
+            <hint/>
+            <label>Position Source</label>
+            <language>en</language>
+            <name>x_snc_aviation_ser_aviation_data</name>
+            <plural>Position Sources</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-08-20 23:17:13</sys_created_on>
+            <sys_id>ec9c5acbdbdb33007be0fb371d96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Position Source</sys_name>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_aviation_ser_aviation_data_position_source_en</sys_update_name>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-08-20 23:17:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

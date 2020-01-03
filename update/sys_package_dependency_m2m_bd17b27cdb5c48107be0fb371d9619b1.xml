@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">cc9fc103dbd333007be0fb371d96199c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>brian.clauzel</sys_created_by>
+        <sys_created_on>2019-10-02 18:29:32</sys_created_on>
+        <sys_id>bd17b27cdb5c48107be0fb371d9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_updated_by>brian.clauzel</sys_updated_by>
+        <sys_updated_on>2019-10-02 18:29:32</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

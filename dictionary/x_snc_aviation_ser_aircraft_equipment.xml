@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Aircraft Equipment" max_length="40" name="x_snc_aviation_ser_aircraft_equipment" type="collection">
+        <element label="Model" max_length="120" name="model" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

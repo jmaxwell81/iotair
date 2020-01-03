@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_type_aircraft" label="Type Aircraft" language="en" table="u_imp_tmpl_x_snc_aviation_ser_faa_master_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_type_aircraft</element>
+            <help/>
+            <hint/>
+            <label>Type Aircraft</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_snc_aviation_ser_faa_master_data</name>
+            <plural>Type Aircrafts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jeremy.duncan</sys_created_by>
+            <sys_created_on>2019-11-13 21:33:10</sys_created_on>
+            <sys_id>59e3bb9213094010c8e176076144b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type Aircraft</sys_name>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_snc_aviation_ser_faa_master_data_u_type_aircraft_en</sys_update_name>
+            <sys_updated_by>jeremy.duncan</sys_updated_by>
+            <sys_updated_on>2019-11-13 21:33:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Fleet Service Management">83f516c7dbdb33007be0fb371d9619f6</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Airline Codes</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_aviation_ser_airline_codes</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_aviation_ser.airline_codes_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-21 15:33:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6edcaaa13750050c8e176076144b0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Airline Codes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_app_module_a6edcaaa13750050c8e176076144b0c8</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-21 15:33:10</sys_updated_on>
+        <timeline_page/>
+        <title>Airline Codes</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_app_module_a6edcaaa13750050c8e176076144b0c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Fleet Service Management">83f516c7dbdb33007be0fb371d9619f6</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Airline Codes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_aviation_ser_airline_codes</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_aviation_ser.airline_codes_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-12-21 15:33:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a6edcaaa13750050c8e176076144b0c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Airline Codes</sys_name><sys_overrides/><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_app_module_a6edcaaa13750050c8e176076144b0c8</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-12-21 15:33:10</sys_updated_on><timeline_page/><title>Airline Codes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1791310614</payload_hash>
+        <record_name>Airline Codes</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-21 15:33:10</sys_created_on>
+        <sys_id>62ed0eaa13750050c8e176076144b016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f29174e510000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-21 15:33:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>aaed0eaa307500506d340b7c5b9cf615</update_guid>
+        <update_guid_history>aaed0eaa307500506d340b7c5b9cf615:-1791310614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Airline Codes">97355aa613b50050c8e176076144b081</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-21 16:05:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>7154a9b95a3f4e868e618ed768b8efc9</sys_id>
+        <sys_metadata>a6edcaaa13750050c8e176076144b0c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Airline Codes</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_app_module_a6edcaaa13750050c8e176076144b0c8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a6edcaaa13750050c8e176076144b0c8">62ed0eaa13750050c8e176076144b016</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-21 16:05:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>32</height>
+        <image>f84c6e8bdb933300ed6bf1471d96198b</image>
+        <name>markers-shadow@2x.png</name>
+        <size_bytes>1469</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-21 00:25:21</sys_created_on>
+        <sys_id>ce2c6e8bdb933300ed6bf1471d9619dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>markers-shadow@2x.png</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>db_image_ce2c6e8bdb933300ed6bf1471d9619dc</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-21 00:25:45</sys_updated_on>
+        <thumbnail/>
+        <width>70</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash/>
+        <image_height>32</image_height>
+        <image_width>70</image_width>
+        <size_bytes>1469</size_bytes>
+        <size_compressed>1492</size_compressed>
+        <state>available</state>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-21 00:25:45</sys_created_on>
+        <sys_id>f84c6e8bdb933300ed6bf1471d96198b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-08-21 00:25:46</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>ce2c6e8bdb933300ed6bf1471d9619dc</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="f84c6e8bdb933300ed6bf1471d96198b">f84c6e8bdb933300ed6bf1471d96198b</sys_attachment>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-21 00:25:45</sys_created_on>
+        <sys_id>3c4c6e8bdb933300ed6bf1471d96198b</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>Ab0FQvqJUE5HDQoaCgAAAA1JSERSAAAARgAAACAIBgAAAK+DDsMAAAWESURBVHja1Zn/S5tXFIdllDGklBHCioRSQlBCGUEJwSJBEYmIoURCpDiUoVgsDkWxKMqKiqKlG61ssnZ/rbuD53IOZ++p963OUuH5oWlyvzz53HNv7tt3C3/ffAb3viD+uG76l3PC3zp8l0D/zbDtSf/XybqREFeAP7n7hgcO398S0iZ9GmlWUn4xjhARYSZvJllQFBU/ZPAwkYEMzHtoU/oriDAkGUF5xVghIgMJIkAmbSZQgkfw2FB2qOSHz9I2/ZVEHpKMIC0nZ0owa4UgQgQwcZnYIAxB1fDE8OM11D75/7RD20P0XVGSBhgvCUIOYiDX0iElCJFUlOgUCUxWJjEcGIE6NDIY/QRPMzDvoR36oL9hJWtICSqJHJKjUiMCfCQpIqVAowhBBhLixBn8GDQD4zBhmDRMpWI+N6H6aNLvaJSEoKrIITmkJl0MSbFSaPBRFBJlIKKpJtcKTAdmYBbaDs8SaRtmaX+aPqeUqCbjasT0MO6yEfNAak2iGN58HykPY0roZISOxxnUDIPtBOYC3UAP5hXP8yOfp70uzAHSkIQgJWeEVA8hpsR8CiImPTGSFpaPktKg0xbf2hwDXgj8FFgK/AzLnw1t0N7iv23DAsIQhRwShJgJtaSGqTWDSUvJO/3ZtNBQGSl1lZIOg1tkAquBtcDLwHrgl0TWM3hJWy8Cq7CiRSFonvR01PJqISYupRpiKpQCtm7SosX4R2M5r/DBYqwravm0+IYWGOgaE9wKbAd2Aq8S2VFsw1ZgM7BBu0gSOUYMiWEpSY2pk5Yq449bdtFJy3WJQYxszY9pvEGnbQa0zKC3mOR+4CDwOnBo4XXLr4ED2INd2kMSgpBDv0ssq/mYFlVfxllCI7ro2q3aOeAhIU1MmSg+peMug4pS9pjkceAkcOZwCidwHDhS0g6Qu2fEkBqkSJ3pqqRMqWJbZ/lU4/KxdQWMlDQx/UpMBfNNvpV54rzBBA6Z6JvA28DvGfzG/73lfefIioIOJT2IYUlRc9aQsqjqStssnYakhB2ImiLLx0nKDcTUiOgMO8IKA99ncucIeB/4w3DB6+94T5QTU3REYqKUnQwhS/TbVVvzpAhh58klRKRcXV3h5Lqt2hczS5RXmcDrKAUJl4EPGl77UwSRIEnNsRKzq5bPC76ARbN0WkiJ23HNbMdyTmHp+CkRMcjxxZgaU4xbtUrMQpYYJv9X4GPgb/jAa1HMOxJzTtKOMpKypoQ8V0KmRYikxBz1SYkIsRdVVoYVc8/gb9dSfJuOmDdM+FJLgY8qMe9VUk5jXSEl27HIqlrSC3TU2WTcnGRtcS36Pw4FESGkiBE5HPDouKp2pR7Fd5Nv+pQUXMTUwCXLi9pCSlg2scCqHWdJLZm2XTImIWy/JiFuHREcMf5S8lLDtzGozjFz1Jl1tSudqeJ7ASJEEnKgErKeIaTjLxk5j6QuGfjPX34xgtzDyCGvRmqmmcQyk9tlSZwg4AxMDWG5sNMgt6fOIpPmcGa33YH0bVeE5BCTeKWJGAZT4lurM4G22p02RQ6nXjnV7ktRZclIUe1oId5vG6eopknh37csRnYnBlZhwKMsqWdMcJkUbCAgHsxiMV1Ry6UnBzMppmq5VP1ziBRUp4b0/d9i5LdU9o/JGt/sJDtGj/TINYP6oefsLmPm6D5o72btzb4Vkud2//bE+KfgEsmpxl/bCJoxt3GzcrMmdyPOVaMUUzmUmXT4D8juWkxf5t0Mcoh7VaVnTO511dUiMkwyyvbW3qYj7wOxuxdDakQOp2G5/62wczxh8mBu6NlmHRn9bjE1f19ejP/7ycop2WdJiopNhy2mVgh8LWLsoU+eHDBRecxqH52KjEKyDIR8PWIg8zGtUBDSnxl7Eu5azD/w8VIbQc9s+AAAAABJRU5ErkJggmXS2Cm9BQAA</data>
+        <length>1976</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="f84c6e8bdb933300ed6bf1471d96198b">f84c6e8bdb933300ed6bf1471d96198b</sys_attachment>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-21 00:25:45</sys_created_on>
+        <sys_id>bc4c6e8bdb933300ed6bf1471d96198b</sys_id>
+    </sys_attachment_doc>
+</record_update>

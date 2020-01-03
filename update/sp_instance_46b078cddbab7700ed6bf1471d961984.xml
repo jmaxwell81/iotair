@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">27a0b4cddbab7700ed6bf1471d96196f</sp_column>
+        <sp_widget display_value="Custom search">03c8511cdb4f770040dff7b51d9619fe</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-26 20:33:50</sys_created_on>
+        <sys_id>46b078cddbab7700ed6bf1471d961984</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Welcome to iOT in Air</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_instance_46b078cddbab7700ed6bf1471d961984</sys_update_name>
+        <sys_updated_by>jacob.shemkovitz</sys_updated_by>
+        <sys_updated_on>2019-11-06 16:18:19</sys_updated_on>
+        <title>Welcome to iOT in Air</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"background_color_hex": {
+		"value": "#80B6A1",
+		"displayValue": "#80B6A1"
+	},
+	"text_color": {
+		"value": "#fff",
+		"displayValue": "#fff"
+	},
+	"short_description": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=46b078cddbab7700ed6bf1471d961984"/>
+</record_update>

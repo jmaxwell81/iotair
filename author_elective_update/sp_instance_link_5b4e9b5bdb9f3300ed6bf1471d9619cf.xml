@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <glyph>cog</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">dbcd1b5bdb9f3300ed6bf1471d9619b8</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-21 22:42:51</sys_created_on>
+        <sys_id>5b4e9b5bdb9f3300ed6bf1471d9619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Tickets</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_instance_link_5b4e9b5bdb9f3300ed6bf1471d9619cf</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:28:09</sys_updated_on>
+        <title>Tickets</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=5b4e9b5bdb9f3300ed6bf1471d9619cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>7a2349c7db9f734c0b9d21c405961996</instance_id>
+        <instance_name>rrpoc</instance_name>
+        <name>sp_instance_link_5b4e9b5bdb9f3300ed6bf1471d9619cf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;info&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;cog&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;dbcd1b5bdb9f3300ed6bf1471d9619b8&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sush.chan&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-21 22:42:51&lt;/sys_created_on&gt;&lt;sys_id&gt;5b4e9b5bdb9f3300ed6bf1471d9619cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tickets&lt;/sys_name&gt;&lt;sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser"&gt;64764643db533300ed6bf1471d96193a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aviation Service Management"&gt;64764643db533300ed6bf1471d96193a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_5b4e9b5bdb9f3300ed6bf1471d9619cf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jeremy.duncan&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-08-22 16:28:09&lt;/sys_updated_on&gt;&lt;title&gt;Tickets&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5b4e9b5bdb9f3300ed6bf1471d9619cf"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1289551939</payload_hash>
+        <record_name>Tickets</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-08-22 16:28:09</sys_created_on>
+        <sys_id>44229b6fdbdf73007be0fb371d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cba28292a0000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-08-22 16:28:09</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>cc229b6f4ddf7300c60fdd3bd2765686</update_guid>
+        <update_guid_history>cc229b6f4ddf7300c60fdd3bd2765686:-1289551939,f37ed39bbf9f3300a2e8bb4ac2245e0c:-1976493251,5f4e9b5bb29f3300d186d9c6aaef9bd0:-1677829750</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bbccc216dbaf7b00ed6bf1471d961973</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-31 00:28:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0160e64d688848ca8878527d2d587024</sys_id>
+        <sys_metadata>5b4e9b5bdb9f3300ed6bf1471d9619cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tickets</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sp_instance_link_5b4e9b5bdb9f3300ed6bf1471d9619cf</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_5b4e9b5bdb9f3300ed6bf1471d9619cf">44229b6fdbdf73007be0fb371d961987</sys_update_version>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-31 00:28:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="FAA Master Data" max_length="40" name="x_snc_aviation_ser_faa_master_data" sizeclass="10000" type="collection">
+        <element label="Air Worth Date" max_length="120" name="air_worth_date" type="string"/>
+        <element label="Certification" max_length="120" name="certification" type="string"/>
+        <element label="Cert Issue Date" max_length="120" name="cert_issue_date" type="string"/>
+        <element label="City" max_length="120" name="city" type="string"/>
+        <element label="Country" max_length="120" name="country" type="string"/>
+        <element label="County" max_length="120" name="county" type="string"/>
+        <element label="Eng Mfr Mdl" max_length="120" name="eng_mfr_mdl" type="string"/>
+        <element label="Expiration Date" max_length="120" name="expiration_date" type="string"/>
+        <element label="Fract Owner" max_length="120" name="fract_owner" type="string"/>
+        <element label="Kit Mfr" max_length="120" name="kit_mfr" type="string"/>
+        <element label="Kit Model" max_length="120" name="kit_model" type="string"/>
+        <element label="Last Action Date" max_length="120" name="last_action_date" type="string"/>
+        <element label="Mfr Mdl Code" max_length="120" name="mfr_mdl_code" type="string"/>
+        <element label="Mode S Code" max_length="120" name="mode_s_code" type="string"/>
+        <element label="Mode S Code Hex" max_length="120" name="mode_s_code_hex" type="string"/>
+        <element label="Name" max_length="120" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="N-Number" max_length="120" name="n_number" type="string"/>
+        <element label="Other Names(1)" max_length="120" name="other_names_1" type="string"/>
+        <element label="Other Names(2)" max_length="120" name="other_names_2" type="string"/>
+        <element label="Other Names(3)" max_length="120" name="other_names_3" type="string"/>
+        <element label="Other Names(4)" max_length="120" name="other_names_4" type="string"/>
+        <element label="Other Names(5)" max_length="120" name="other_names_5" type="string"/>
+        <element label="Region" max_length="120" name="region" type="string"/>
+        <element label="Serial Number" max_length="120" name="serial_number" type="string"/>
+        <element label="State" max_length="120" name="state" type="string"/>
+        <element label="Status Code" max_length="120" name="status_code" type="string"/>
+        <element label="Street" max_length="120" name="street" type="string"/>
+        <element label="Street2" max_length="120" name="street2" type="string"/>
+        <element label="Type Aircraft" max_length="120" name="type_aircraft" type="string"/>
+        <element label="Type Engine" max_length="120" name="type_engine" type="string"/>
+        <element label="Type Registrant" max_length="120" name="type_registrant" type="string"/>
+        <element label="Unique ID" max_length="120" name="unique_id" type="string"/>
+        <element label="Year Mfr" max_length="120" name="year_mfr" type="string"/>
+        <element label="Zip Code" max_length="120" name="zip_code" type="string"/>
+    </element>
+</database>

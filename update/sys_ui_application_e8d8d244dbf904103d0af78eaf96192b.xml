@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Aircraft Issues</name>
+        <order/>
+        <roles>x_snc_aviation_ser.aircraft_issues_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8d8d244dbf904103d0af78eaf96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aircraft Issues</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_ui_application_e8d8d244dbf904103d0af78eaf96192b</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:02</sys_updated_on>
+    </sys_ui_application>
+</record_update>

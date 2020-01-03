@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="add_to_initdata" label="Add to initData" language="en" table="stage_job">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>add_to_initdata</element>
+            <help/>
+            <hint/>
+            <label>Add to initData</label>
+            <language>en</language>
+            <name>stage_job</name>
+            <plural>Add to initData</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-06 22:10:23</sys_created_on>
+            <sys_id>9a49370813058010c8e176076144b0fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Add to initData</sys_name>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_documentation_stage_job_add_to_initdata_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-06 22:10:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Aircraft Issues">e8d8d244dbf904103d0af78eaf96192b</application>
+        <filter/>
+        <name>Aircraft Issues</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_aviation_ser.aircraft_issues_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68d8d244dbf904103d0af78eaf96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aircraft Issues</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_ui_module_68d8d244dbf904103d0af78eaf96192e</sys_update_name>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:02</sys_updated_on>
+        <table>x_snc_aviation_ser_aircraft_issues</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_ui_module_68d8d244dbf904103d0af78eaf96192e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Aircraft Issues">e8d8d244dbf904103d0af78eaf96192b</application><filter/><name>Aircraft Issues</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_aviation_ser.aircraft_issues_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>jeremy.duncan</sys_created_by><sys_created_on>2019-12-13 21:56:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>68d8d244dbf904103d0af78eaf96192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Aircraft Issues</sys_name><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_ui_module_68d8d244dbf904103d0af78eaf96192e</sys_update_name><sys_updated_by>jeremy.duncan</sys_updated_by><sys_updated_on>2019-12-13 21:56:02</sys_updated_on><table>x_snc_aviation_ser_aircraft_issues</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1912348861</payload_hash>
+        <record_name>Aircraft Issues</record_name>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2019-12-13 21:56:02</sys_created_on>
+        <sys_id>a4d8d244dbf904103d0af78eaf961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f0142f2ea0000001</sys_recorded_at>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2019-12-13 21:56:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ecd8d244aef90410c4c69d0498705230</update_guid>
+        <update_guid_history>ecd8d244aef90410c4c69d0498705230:-1912348861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeremy.duncan</sys_created_by>
+        <sys_created_on>2020-01-03 15:59:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>11844f5c8b984745878571067fe44ca9</sys_id>
+        <sys_metadata>68d8d244dbf904103d0af78eaf96192e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aircraft Issues</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_ui_module_68d8d244dbf904103d0af78eaf96192e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_68d8d244dbf904103d0af78eaf96192e">a4d8d244dbf904103d0af78eaf961931</sys_update_version>
+        <sys_updated_by>jeremy.duncan</sys_updated_by>
+        <sys_updated_on>2020-01-03 15:59:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

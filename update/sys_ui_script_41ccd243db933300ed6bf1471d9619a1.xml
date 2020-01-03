@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_snc_aviation_ser.Awesome marker JS</name>
+        <script><![CDATA[/*
+  Leaflet.AwesomeMarkers, a plugin that adds colorful iconic markers for Leaflet, based on the Font Awesome icons
+  (c) 2012-2013, Lennard Voogdt
+
+  http://leafletjs.com
+  https://github.com/lvoogdt
+*/
+
+/*global L*/
+
+(function (window, document, undefined) {
+    "use strict";
+    /*
+     * Leaflet.AwesomeMarkers assumes that you have already included the Leaflet library.
+     */
+
+    L.AwesomeMarkers = {};
+
+    L.AwesomeMarkers.version = '2.0.1';
+
+    L.AwesomeMarkers.Icon = L.Icon.extend({
+        options: {
+            iconSize: [35, 45],
+            iconAnchor:   [17, 42],
+            popupAnchor: [1, -32],
+            shadowAnchor: [10, 12],
+            shadowSize: [36, 16],
+            className: 'awesome-marker',
+            prefix: 'glyphicon',
+            spinClass: 'fa-spin',
+            extraClasses: '',
+            icon: 'home',
+            markerColor: 'blue',
+            iconColor: 'white'
+        },
+
+        initialize: function (options) {
+            options = L.Util.setOptions(this, options);
+        },
+
+        createIcon: function () {
+            var div = document.createElement('div'),
+                options = this.options;
+
+            if (options.icon) {
+                div.innerHTML = this._createInner();
+            }
+
+            if (options.bgPos) {
+                div.style.backgroundPosition =
+                    (-options.bgPos.x) + 'px ' + (-options.bgPos.y) + 'px';
+            }
+
+            this._setIconStyles(div, 'icon-' + options.markerColor);
+            return div;
+        },
+
+        _createInner: function() {
+            var iconClass, iconSpinClass = "", iconColorClass = "", iconColorStyle = "", options = this.options;
+
+            if(options.icon.slice(0,options.prefix.length+1) === options.prefix + "-") {
+                iconClass = options.icon;
+            } else {
+                iconClass = options.prefix + "-" + options.icon;
+            }
+
+            if(options.spin && typeof options.spinClass === "string") {
+                iconSpinClass = options.spinClass;
+            }
+
+            if(options.iconColor) {
+                if(options.iconColor === 'white' || options.iconColor === 'black') {
+                    iconColorClass = "icon-" + options.iconColor;
+                } else {
+                    iconColorStyle = "style='color: " + options.iconColor + "' ";
+                }
+            }
+
+            return "<i " + iconColorStyle + "class='" + options.extraClasses + " " + options.prefix + " " + iconClass + " " + iconSpinClass + " " + iconColorClass + "'></i>";
+        },
+
+        _setIconStyles: function (img, name) {
+            var options = this.options,
+                size = L.point(options[name === 'shadow' ? 'shadowSize' : 'iconSize']),
+                anchor;
+
+            if (name === 'shadow') {
+                anchor = L.point(options.shadowAnchor || options.iconAnchor);
+            } else {
+                anchor = L.point(options.iconAnchor);
+            }
+
+            if (!anchor && size) {
+                anchor = size.divideBy(2, true);
+            }
+
+            img.className = 'awesome-marker-' + name + ' ' + options.className;
+
+            if (anchor) {
+                img.style.marginLeft = (-anchor.x) + 'px';
+                img.style.marginTop  = (-anchor.y) + 'px';
+            }
+
+            if (size) {
+                img.style.width  = size.x + 'px';
+                img.style.height = size.y + 'px';
+            }
+        },
+
+        createShadow: function () {
+            var div = document.createElement('div');
+
+            this._setIconStyles(div, 'shadow');
+            return div;
+      }
+    });
+        
+    L.AwesomeMarkers.icon = function (options) {
+        return new L.AwesomeMarkers.Icon(options);
+    };
+
+}(this, document));
+
+
+
+]]></script>
+        <script_name>Awesome marker JS</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-20 23:18:19</sys_created_on>
+        <sys_id>41ccd243db933300ed6bf1471d9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_aviation_ser.Awesome marker JS</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_ui_script_41ccd243db933300ed6bf1471d9619a1</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-08-20 23:18:19</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

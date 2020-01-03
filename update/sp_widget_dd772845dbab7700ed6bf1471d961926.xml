@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.general-menu {
+    width: 100%;
+
+    .menu-div {
+      margin-bottom: 20px;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+        padding: 10px;
+        color:$brand-primary;
+        .icon{
+          height: 32px;
+          width: 32px;
+          margin-right: 10px;
+
+          .fa{
+            //color: #4E5D65;
+            font-size: 32px;
+          }
+        }
+        .title{
+          //color: #4E5D65;
+          font-size: 24px;
+        }
+
+    }
+  }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>avs_home_page_general_menu</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>AVS Home page General Menu</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-08-26 19:53:46</sys_created_on>
+        <sys_id>dd772845dbab7700ed6bf1471d961926</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>AVS Home page General Menu</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_widget_dd772845dbab7700ed6bf1471d961926</sys_update_name>
+        <sys_updated_by>jacob.shemkovitz</sys_updated_by>
+        <sys_updated_on>2019-11-06 16:30:14</sys_updated_on>
+        <template><![CDATA[<div class="general-menu">
+<!-- your widget template -->
+<a class="menu-div" href="?id=sc_cat_item&sys_id=443680c6dbaf3b007be0fb371d961916">
+  <div class="icon"><i class="fa fa-exclamation-circle"></i></div>
+  <div class="title">Open a Case</div>
+</a>
+<a class="menu-div" href="?id=kb_view2&kb_id=a7e8a78bff0221009b20ffffffffff17">
+  <div class="icon"><i class="fa fa-book"></i></div>
+  <div class="title">Solve a Problem</div>
+</a>
+<a class="menu-div" href="?id=sqa_tagged_questions">
+  <div class="icon"><i class="fa fa-users"></i></div>
+  <div class="title">Learn from Others</div>
+</a>
+<a class="menu-div" href="?id=avs_map">
+  <div class="icon"><i class="fa fa-map"></i></div>
+  <div class="title">Live Map</div>
+</a>
+</div>]]></template>
+    </sp_widget>
+</record_update>

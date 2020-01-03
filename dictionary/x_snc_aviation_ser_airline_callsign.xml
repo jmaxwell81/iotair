@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Airline Callsign" max_length="40" name="x_snc_aviation_ser_airline_callsign" type="collection">
+        <element label="Aircraft Operator" max_length="120" name="aircraft_operator" type="string"/>
+        <element label="Callsign" max_length="40" name="callsign" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element display="true" label="Identifier" max_length="40" name="identifier" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Logo" max_length="40" name="logo" type="user_image"/>
+    </element>
+</database>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8539fa4edb4ac8103d0af78eaf961944</sp_column>
+        <sp_widget display_value="SN Form">416b19069345220064f572edb67ffb79</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-01 15:41:05</sys_created_on>
+        <sys_id>2d397e4edb4ac8103d0af78eaf961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sp_instance_2d397e4edb4ac8103d0af78eaf961979</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-01 15:41:05</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2d397e4edb4ac8103d0af78eaf961979"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sp_instance_2d397e4edb4ac8103d0af78eaf961979</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">8539fa4edb4ac8103d0af78eaf961944</sp_column><sp_widget display_value="SN Form">416b19069345220064f572edb67ffb79</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-01 15:41:05</sys_created_on><sys_id>2d397e4edb4ac8103d0af78eaf961979</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sp_instance_2d397e4edb4ac8103d0af78eaf961979</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-01 15:41:05</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2d397e4edb4ac8103d0af78eaf961979"/></record_update>]]></payload>
+        <payload_hash>1478307460</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>70760283db533300ed6bf1471d9619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-01 15:41:06</sys_created_on>
+        <sys_id>a5397e4edb4ac8103d0af78eaf96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f61c4827a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-01 15:41:06</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ed397e4e6b4ac810139ef8c29449a17b</update_guid>
+        <update_guid_history>ed397e4e6b4ac810139ef8c29449a17b:1478307460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b649be4edb4ac8103d0af78eaf9619e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-01 15:41:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0232fdb414d74c6380389d6a7fcd03b1</sys_id>
+        <sys_metadata>2d397e4edb4ac8103d0af78eaf961979</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sp_instance_2d397e4edb4ac8103d0af78eaf961979</sys_update_name>
+        <sys_update_version display_value="sp_instance_2d397e4edb4ac8103d0af78eaf961979">a5397e4edb4ac8103d0af78eaf96197c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-01 15:41:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

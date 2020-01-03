@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Aviation Data Import2</name>
+        <run_as display_value="Jeremy Duncan">92ff464bdb533300ed6bf1471d961953</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:00:30</run_period>
+        <run_start>2019-08-20 23:21:16</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var requestBody;
+var responseBody;
+var status;
+var sm;
+try{
+	//var r = new sn_ws.RESTMessageV2('x_snc_aviation_ser.Opensky', 'Default GET');
+   var r = new sn_ws.RESTMessageV2('x_snc_aviation_ser.Opensky', 'Cultest GET');
+	
+	
+	//Specifying specific LAT LONG values. Will overwrite the integration GET values.
+	/*
+	r.setStringParameterNoEscape('lamin', '39.095297');
+	r.setStringParameterNoEscape('lomax', '18.189240');
+	r.setStringParameterNoEscape('lomin', '-9.570808');
+	r.setStringParameterNoEscape('lamax', '59.152875');
+ 	*/
+	
+	response = r.execute();
+	
+	//Might throw exception if http connection timed out or some issue with sending request itself because of encryption/decryption of password.
+	
+	response.waitForResponse(60);// In seconds. Wait at most 60 seconds to get response from ECC Queue/Mid Server //Might throw exception timing out waiting for response in ECC queue.
+	
+	responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+	status = response.getStatusCode();
+	
+	var resp = JSON.parse(responseBody);
+	var states = resp.states;
+	gs.info(JSON.stringify(states));
+	for (var index = 0; index < states.length; index++) {
+		if(states[index][5] && states[index][6]){
+			
+//using data2 for testing			
+			var gr = new GlideRecord('x_snc_aviation_ser_aviation_data2');
+			gr.addQuery('icao24',states[index][0]);
+			gr.query();
+			if(gr.next()){
+				gr.setValue('origin_country',states[index][2]);
+				gr.setValue('longitude',states[index][5]);
+				gr.setValue('latitude',states[index][6]);
+				gr.setValue('baro_altitude',states[index][7]);
+				gr.setValue('on_ground',states[index][8]);
+				gr.setValue('velocity',states[index][9]);
+				gr.setValue('true_track',states[index][10]);
+				gr.setValue('vertical_rate',states[index][11]);
+				gr.setValue('geo_altitude',states[index][13]);
+				gr.update();
+			} else {
+				gr.initialize();
+				gr.setValue('icao24',states[index][0]);
+				var callSign = states[index][1];
+				
+				if(callSign.substring(0, 3) == 'RYR'){
+					gr.setValue('aircraft_engine','597aea93db5773007be0fb371d961970');
+				}
+				
+				//Only update if an existing callsign exists
+				/*
+				var grCallSign = new GlideRecord('x_snc_aviation_ser_airline_callsign');
+				grCallSign.addQuery('identifier',callSign.substring(0, 3));
+				grCallSign.query();
+				if(grCallSign.next()){
+					if(grCallSign.getDisplayValue('identifier' != '')){
+						gr.setValue('callsign',grCallSign.sys_id.toString());
+						gr.setValue('origin_country',states[index][2]);
+						gr.setValue('longitude',states[index][5]);
+						gr.setValue('latitude',states[index][6]);
+						gr.setValue('baro_altitude',states[index][7]);
+						gr.setValue('on_ground',states[index][8]);
+						gr.setValue('velocity',states[index][9]);
+						gr.setValue('true_track',states[index][10]);
+						gr.setValue('vertical_rate',states[index][11]);
+						gr.setValue('geo_altitude',states[index][13]);
+						gr.insert();
+					}
+ 					*/
+					if(states[index][2] == 'United States'){
+						if(callSign.substring(0, 3) == 'DAl' || callSign.substring(0, 3) == 'SWA' || callSign.substring(0, 3) == 'AAL' || callSign.substring(0, 3) == 'FDX'){
+							var grCallSign = new GlideRecord('x_snc_aviation_ser_airline_callsign');
+							grCallSign.addQuery('identifier',callSign.substring(0, 3));
+							grCallSign.query();
+							if(grCallSign.next()){
+								gr.setValue('callsign',grCallSign.sys_id.toString());
+								gr.setValue('origin_country',states[index][2]);
+								gr.setValue('longitude',states[index][5]);
+								gr.setValue('latitude',states[index][6]);
+								gr.setValue('baro_altitude',states[index][7]);
+								gr.setValue('on_ground',states[index][8]);
+								gr.setValue('velocity',states[index][9]);
+								gr.setValue('true_track',states[index][10]);
+								gr.setValue('vertical_rate',states[index][11]);
+								gr.setValue('geo_altitude',states[index][13]);
+								gr.insert();
+							}
+						}
+						
+					}else{
+						var grCallSign = new GlideRecord('x_snc_aviation_ser_airline_callsign');
+						grCallSign.addQuery('identifier',callSign.substring(0, 3));
+						grCallSign.query();
+						if(grCallSign.next()){
+							
+							gr.setValue('callsign',grCallSign.sys_id.toString());
+							gr.setValue('origin_country',states[index][2]);
+							gr.setValue('longitude',states[index][5]);
+							gr.setValue('latitude',states[index][6]);
+							gr.setValue('baro_altitude',states[index][7]);
+							gr.setValue('on_ground',states[index][8]);
+							gr.setValue('velocity',states[index][9]);
+							gr.setValue('true_track',states[index][10]);
+							gr.setValue('vertical_rate',states[index][11]);
+							gr.setValue('geo_altitude',states[index][13]);
+							gr.insert();
+						}
+					}
+					
+					
+					
+					
+					
+				}
+			}
+			
+		}
+		
+		
+	} catch(ex) {
+		responseBody = ex.getMessage();
+		status = '500';
+	} finally {
+		
+	}
+	]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-12-19 22:18:00</sys_created_on>
+        <sys_id>8967d94a13b94c10c8e176076144b025</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Aviation Data Import2</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sysauto_script_8967d94a13b94c10c8e176076144b025</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-12-19 22:18:26</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
