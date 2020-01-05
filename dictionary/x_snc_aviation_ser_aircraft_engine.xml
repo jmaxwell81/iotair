@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_snc_aviation_ser_aircraft_equipment" label="Aircraft Engine" max_length="40" name="x_snc_aviation_ser_aircraft_engine" sizeclass="303" type="collection">
+    <element extends="x_snc_aviation_ser_aircraft_equipment" label="Aircraft Engine" max_length="40" name="x_snc_aviation_ser_aircraft_engine" sizeclass="4" type="collection">
         <element label="Code" max_length="40" name="code" type="string"/>
         <element attributes="pdf_cell_type=image" label="Engine Image" max_length="40" name="engine_image" type="user_image"/>
         <element label="Engine Overview" max_length="65536" name="engine_overview" type="html"/>

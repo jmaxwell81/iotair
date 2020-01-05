@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="sm_order" label="Fleet Issue" max_length="40" name="x_snc_aviation_ser_fleet_issue" type="collection">
+    <element audit="true" extends="sm_order" label="Fleet Issue" max_length="40" name="x_snc_aviation_ser_fleet_issue" sizeclass="8" type="collection">
         <element label="Aircraft" max_length="32" name="aircraft" reference="x_snc_aviation_ser_aircraft" type="reference"/>
         <element choice="1" label="Fleet Type" max_length="40" name="fleet_type" type="choice">
             <choice>

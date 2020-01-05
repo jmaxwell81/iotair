@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Airport Import from csv" max_length="40" name="x_snc_aviation_ser_airport_import_from_csv" sizeclass="7698" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Airport ID" label="Airport ID" max_length="40" name="u_airport_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Airport Name" label="Airport Name" max_length="72" name="u_airport_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Altitude" label="Altitude" max_length="40" name="u_altitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=country" label="country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=DST" label="DST" max_length="40" name="u_dst" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IATA" label="IATA" max_length="40" name="u_iata" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ICAO" label="ICAO" max_length="40" name="u_icao" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Latatude" label="Latatude" max_length="40" name="u_latatude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source" label="Source" max_length="40" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Timezone" label="Timezone" max_length="40" name="u_timezone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=TZ database time" label="TZ database time" max_length="40" name="u_tz_database_time" type="string"/>
+    </element>
+</database>

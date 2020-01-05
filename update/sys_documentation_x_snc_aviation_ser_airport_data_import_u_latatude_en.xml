@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_latatude" label="Latatude" language="en" table="x_snc_aviation_ser_airport_data_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_latatude</element>
+            <help/>
+            <hint/>
+            <label>Latatude</label>
+            <language>en</language>
+            <name>x_snc_aviation_ser_airport_data_import</name>
+            <plural>Latatudes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:50:11</sys_created_on>
+            <sys_id>8d787e9fdbc280503d0af78eaf9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Latatude</sys_name>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_aviation_ser_airport_data_import_u_latatude_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:50:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

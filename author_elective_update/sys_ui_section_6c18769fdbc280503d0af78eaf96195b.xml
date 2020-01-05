@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="6c18769fdbc280503d0af78eaf96195b" sys_domain="global" table="u_imp_tmpl_x_snc_aviation_ser_airports" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_airport_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>bc18769fdbc280503d0af78eaf96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3818769fdbc280503d0af78eaf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dst</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>bc18769fdbc280503d0af78eaf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_source</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3418769fdbc280503d0af78eaf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b818769fdbc280503d0af78eaf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_latatude</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3018769fdbc280503d0af78eaf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tz_database_time</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b418769fdbc280503d0af78eaf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3c18769fdbc280503d0af78eaf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_altitude</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b018769fdbc280503d0af78eaf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_iata</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3818769fdbc280503d0af78eaf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_timezone</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>bc18769fdbc280503d0af78eaf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_airport_id</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3418769fdbc280503d0af78eaf961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_longitude</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b818769fdbc280503d0af78eaf961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3018769fdbc280503d0af78eaf961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b418769fdbc280503d0af78eaf961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3c18769fdbc280503d0af78eaf961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_icao</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b018769fdbc280503d0af78eaf961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3818769fdbc280503d0af78eaf961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>bc18769fdbc280503d0af78eaf961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3418769fdbc280503d0af78eaf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>b818769fdbc280503d0af78eaf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log.message</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+            <sys_id>3018769fdbc280503d0af78eaf961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_imp_tmpl_x_snc_aviation_ser_airports</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-05 12:48:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c18769fdbc280503d0af78eaf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_imp_tmpl_x_snc_aviation_ser_airports</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+            <sys_update_name>sys_ui_section_6c18769fdbc280503d0af78eaf96195b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-05 12:48:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</application>
+        <file_path/>
+        <instance_id>efb47306dbfc84584d2bac44d49619ab</instance_id>
+        <instance_name>iotinair</instance_name>
+        <name>sys_ui_section_6c18769fdbc280503d0af78eaf96195b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6c18769fdbc280503d0af78eaf96195b" sys_domain="global" table="u_imp_tmpl_x_snc_aviation_ser_airports" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_airport_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>bc18769fdbc280503d0af78eaf96195d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3818769fdbc280503d0af78eaf96195e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_dst</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>bc18769fdbc280503d0af78eaf96195e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_source</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3418769fdbc280503d0af78eaf96195f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_country</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b818769fdbc280503d0af78eaf96195f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_latatude</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3018769fdbc280503d0af78eaf961960</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_tz_database_time</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b418769fdbc280503d0af78eaf961960</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3c18769fdbc280503d0af78eaf961960</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_altitude</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b018769fdbc280503d0af78eaf961961</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_iata</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3818769fdbc280503d0af78eaf961961</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_timezone</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>bc18769fdbc280503d0af78eaf961961</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_airport_id</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3418769fdbc280503d0af78eaf961962</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_longitude</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b818769fdbc280503d0af78eaf961962</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3018769fdbc280503d0af78eaf961963</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_city</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b418769fdbc280503d0af78eaf961963</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3c18769fdbc280503d0af78eaf961963</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_icao</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b018769fdbc280503d0af78eaf961964</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_type</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3818769fdbc280503d0af78eaf961964</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>bc18769fdbc280503d0af78eaf961964</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_description</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3418769fdbc280503d0af78eaf961965</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>b818769fdbc280503d0af78eaf961965</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>template_import_log.message</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:31</sys_created_on><sys_id>3018769fdbc280503d0af78eaf961966</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_imp_tmpl_x_snc_aviation_ser_airports" sys_domain="global" view="Default view">6c18769fdbc280503d0af78eaf96195b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:31</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_imp_tmpl_x_snc_aviation_ser_airports</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-05 12:48:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6c18769fdbc280503d0af78eaf96195b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_imp_tmpl_x_snc_aviation_ser_airports</sys_name><sys_overrides/><sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package><sys_policy/><sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope><sys_update_name>sys_ui_section_6c18769fdbc280503d0af78eaf96195b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-05 12:48:30</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-912612416</payload_hash>
+        <record_name>Imp Tmpl X Snc Aviation Ser Airports</record_name>
+        <reverted_from/>
+        <source>962d98aedb864c103d0af78eaf96191e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-05 12:48:31</sys_created_on>
+        <sys_id>7018769fdbc280503d0af78eaf961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f75bff3860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-05 12:48:31</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f818769f26c280502d5527309fcf3668</update_guid>
+        <update_guid_history>f818769f26c280502d5527309fcf3668:-912612416</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-05 12:56:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>01b5168dd6df4756b9f599716aaf9a24</sys_id>
+        <sys_metadata>6c18769fdbc280503d0af78eaf96195b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_snc_aviation_ser_airports</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_parent display_value="">9ca19a4fdbca00503d0af78eaf961945</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_scope_delete display_value="">7eb28bb3526a452593c0fbeeee52e999</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6c18769fdbc280503d0af78eaf96195b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6c18769fdbc280503d0af78eaf96195b">7018769fdbc280503d0af78eaf961969</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-05 12:56:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
