@@ -6,36 +6,36 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint>This uses Aviation Data2.  Deacitivated the original but left the data because SNEXperience site uses this data.</hint>
+        <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>Aviation Data2s</mobile_title>
+        <mobile_title>API Documentation and Keys</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_aviation_ser_aviation_data2</name>
-        <order>901</order>
+        <name/>
+        <order>1200</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>system_properties_ui.do?sysparm_category=Fleet%20Management%20Properties&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query>
         <report/>
-        <roles>x_snc_aviation_ser.aviation_data2_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-23 13:50:13</sys_created_on>
+        <sys_created_on>2020-01-05 15:51:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>71898c9f1335c050c8e176076144b0b8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Aviation Data</sys_name>
+        <sys_id>8d11af97dbc680503d0af78eaf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>API Documentation and Keys</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
-        <sys_update_name>sys_app_module_71898c9f1335c050c8e176076144b0b8</sys_update_name>
+        <sys_update_name>sys_app_module_8d11af97dbc680503d0af78eaf9619eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-05 14:31:22</sys_updated_on>
+        <sys_updated_on>2020-01-05 15:51:24</sys_updated_on>
         <timeline_page/>
-        <title>Aviation Data</title>
+        <title>API Documentation and Keys</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Fleet Management Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-05 15:26:42</sys_created_on>
+        <sys_id>eab897dbdb8680503d0af78eaf96191b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Fleet Management Properties</sys_name>
+        <sys_package display_value="Aviation Service Management" source="x_snc_aviation_ser">64764643db533300ed6bf1471d96193a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aviation Service Management">64764643db533300ed6bf1471d96193a</sys_scope>
+        <sys_update_name>sys_properties_category_eab897dbdb8680503d0af78eaf96191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-05 15:55:33</sys_updated_on>
+        <title><![CDATA[<p><span style="font-size: 18pt;">Fleet Management Properties</span></p>
+<p> </p>
+<p><span style="font-size: 12pt;"><span style="color: #000000;">The links below provide integration documentation for each API used in the Fleet Management application.<br />NOTE: You will need to obtain your own google maps API key (free of charge!).</span></span></p>
+<p> </p>
+<p><span style="font-size: 10pt;">Google Documentation:</span></p>
+<p><span style="font-size: 10pt;"><a title="https://developers.google.com/maps/documentation/javascript/tutorial" href="https://developers.google.com/maps/documentation/javascript/tutorial" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/maps/documentation/javascript/tutorial</a></span></p>
+<p><span style="font-size: 10pt;">OpenCage Geocoder:</span></p>
+<p><span style="font-size: 10pt;"><a title="https://opencagedata.com/tutorials/geocode-in-javascript" href="https://opencagedata.com/tutorials/geocode-in-javascript" target="_blank" rel="noopener noreferrer nofollow">https://opencagedata.com/tutorials/geocode-in-javascript</a></span></p>
+<p><span style="font-size: 10pt;">Open Sky Network:</span></p>
+<p><span style="font-size: 10pt;"><a title="https://opensky-network.org/apidoc/rest.html" href="https://opensky-network.org/apidoc/rest.html" target="_blank" rel="noopener noreferrer nofollow">https://opensky-network.org/apidoc/rest.html</a></span></p>
+<p> </p>
+<p> </p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=eab897dbdb8680503d0af78eaf96191b"/>
+</record_update>
